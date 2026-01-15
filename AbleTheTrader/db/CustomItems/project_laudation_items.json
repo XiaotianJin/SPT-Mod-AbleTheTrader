@@ -1,0 +1,598 @@
+{
+    "66eeef8b2a166b0000200001": {
+        "itemTplToClone": "5ed5166ad380ab312177c100",
+        "parentId": "5448f3a64bdc2d60728b456a",
+        "handbookParentId": "5b47574386f77428ca22b33a",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "BackgroundColor": "blue",
+            "StimulatorBuffs": "xtst_able_laudation_tremor_buff"
+        },
+        "locales": {
+            "en": {
+                "name": "Laudation Injection: Tremor",
+                "shortName": "Tremor",
+                "description": "Induces controlled neuromuscular instability. Required for specific protocol compliance."
+            }
+        },
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [],
+        "fleaPriceRoubles": 10000,
+        "handbookPriceRoubles": 10000,
+        "addtoTraders": false,
+        "addtoBots": false,
+        "addtoStaticLootContainers": false,
+        "staticLootContainers": [],
+        "masteries": false,
+        "addWeaponPreset": false,
+        "weaponPresets": [],
+        "masterySections": null
+    },
+    "66eeef8b2a166b0000200002": {
+        "itemTplToClone": "5ed5166ad380ab312177c100",
+        "parentId": "5448f3a64bdc2d60728b456a",
+        "handbookParentId": "5b47574386f77428ca22b33a",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "BackgroundColor": "blue",
+            "StimulatorBuffs": "xtst_able_laudation_rupture_buff"
+        },
+        "locales": {
+            "en": {
+                "name": "Laudation Injection: Rupture",
+                "shortName": "Rupture",
+                "description": "Simulates critical vascular failure without external trauma."
+            }
+        },
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [],
+        "fleaPriceRoubles": 10000,
+        "handbookPriceRoubles": 10000,
+        "addtoTraders": false,
+        "addtoBots": false,
+        "addtoStaticLootContainers": false,
+        "staticLootContainers": [],
+        "masteries": false,
+        "addWeaponPreset": false,
+        "weaponPresets": [],
+        "masterySections": null
+    },
+    "66eeef8b2a166b0000200003": {
+        "itemTplToClone": "5ed5166ad380ab312177c100",
+        "parentId": "5448f3a64bdc2d60728b456a",
+        "handbookParentId": "5b47574386f77428ca22b33a",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "BackgroundColor": "blue",
+            "StimulatorBuffs": "xtst_able_laudation_dolor_buff",
+            "effects_damage": {
+                "Pain": {
+                    "Delay": 120,
+                    "Duration": 10,
+                    "fadeOut": 0
+                }
+            }
+        },
+        "locales": {
+            "en": {
+                "name": "Laudation Injection: Dolor",
+                "shortName": "Rupture",
+                "description": "Pain is induced, not treated. Suffering is reframed as a necessary condition for compliance."
+            }
+        },
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [],
+        "fleaPriceRoubles": 10000,
+        "handbookPriceRoubles": 10000,
+        "addtoTraders": false,
+        "addtoBots": false,
+        "addtoStaticLootContainers": false,
+        "staticLootContainers": [],
+        "masteries": false,
+        "addWeaponPreset": false,
+        "weaponPresets": [],
+        "masterySections": null
+    },
+    "66eeef8b2a166b0000200004": {
+        "itemTplToClone": "5ed5166ad380ab312177c100",
+        "parentId": "5448f3a64bdc2d60728b456a",
+        "handbookParentId": "5b47574386f77428ca22b33a",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "BackgroundColor": "blue",
+            "StimulatorBuffs": "xtst_able_laudation_contamination_buff"
+        },
+        "locales": {
+            "en": {
+                "name": "Laudation Injection: Contamination",
+                "shortName": "Contamination",
+                "description": "Introduces controlled systemic disruption. Clean inputs rarely produce meaningful results."
+            }
+        },
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [],
+        "fleaPriceRoubles": 10000,
+        "handbookPriceRoubles": 10000,
+        "addtoTraders": false,
+        "addtoBots": false,
+        "addtoStaticLootContainers": false,
+        "staticLootContainers": [],
+        "masteries": false,
+        "addWeaponPreset": false,
+        "weaponPresets": [],
+        "masterySections": null
+    },
+    "66eeef8b2a166b0000200005": {
+        "itemTplToClone": "5d02797c86f774203f38e30a",
+        "parentId": "5448f3ac4bdc2dce718b4569",
+        "handbookParentId": "5b47574386f77428ca22b338",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "BackgroundColor": "blue",
+            "medUseTime": 8,
+            "MaxHpResource": 5,
+            "Weight": 0.5,
+            "Width": 2,
+            "Height": 1,
+            "StimulatorBuffs": "xtst_able_canon_surgical_kit_buff",
+            "effects_damage": {
+                "DestroyedPart": {
+                    "delay": 0,
+                    "duration": 0,
+                    "fadeOut": 0,
+                    "healthPenaltyMax": 90,
+                    "healthPenaltyMin": 80
+                },
+                "Fracture": {
+                    "delay": 0,
+                    "duration": 0,
+                    "fadeOut": 0
+                },
+                "LightBleeding": {
+                    "delay": 0,
+                    "duration": 0,
+                    "fadeOut": 0
+                },
+                "HeavyBleeding": {
+                    "delay": 0,
+                    "duration": 0,
+                    "fadeOut": 0
+                },
+                "Contusion": {
+                    "delay": 0,
+                    "duration": 0,
+                    "fadeOut": 0
+                },
+                "RadExposure": {
+                    "delay": 0,
+                    "duration": 0,
+                    "fadeOut": 0
+                }
+            },
+            "effects_health": []
+        },
+        "locales": {
+            "en": {
+                "name": "Laudation Surgical Kit",
+                "shortName": "LSK",
+                "description": "Procedures adjusted to compensate for ritualized physiological stress."
+            }
+        },
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [],
+        "fleaPriceRoubles": 40000,
+        "handbookPriceRoubles": 40000,
+        "addtoTraders": false,
+        "addtoBots": false,
+        "addtoStaticLootContainers": false,
+        "staticLootContainers": [],
+        "masteries": false,
+        "addWeaponPreset": false,
+        "weaponPresets": [],
+        "masterySections": null
+    },
+    "66eeef8b2a166b0000200006": {
+        "itemTplToClone": "544fb45d4bdc2dee738b4568",
+        "parentId": "5448f3ac4bdc2dce718b4569",
+        "handbookParentId": "5b47574386f77428ca22b338",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "BackgroundColor": "blue",
+            "medUseTime": 2,
+            "hpResourceRate": 60,
+            "MaxHpResource": 400,
+            "Weight": 0.5,
+            "Width": 1,
+            "Height": 2,
+            "StimulatorBuffs": "",
+            "effects_damage": {
+                "LightBleeding": {
+                    "delay": 0,
+                    "duration": 0,
+                    "fadeOut": 0,
+                    "cost": 15
+                },
+                "HeavyBleeding": {
+                    "delay": 0,
+                    "duration": 0,
+                    "fadeOut": 0,
+                    "cost": 30
+                },
+                "Fracture": {
+                    "delay": 0,
+                    "duration": 0,
+                    "fadeOut": 0,
+                    "cost": 80
+                },
+                "Contusion": {
+                    "delay": 0,
+                    "duration": 0,
+                    "fadeOut": 0,
+                    "cost": 40
+                },
+                "RadExposure": {
+                    "delay": 0,
+                    "duration": 0,
+                    "fadeOut": 0,
+                    "cost": 80
+                }
+            },
+            "effects_health": []
+        },
+        "locales": {
+            "en": {
+                "name": "Laudation Medical Toolkit",
+                "shortName": "LMT",
+                "description": "A medical toolkit assembled to accommodate — not prevent — common battlefield injuries."
+            }
+        },
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [],
+        "fleaPriceRoubles": 40000,
+        "handbookPriceRoubles": 40000,
+        "addtoTraders": false,
+        "addtoBots": false,
+        "addtoStaticLootContainers": false,
+        "staticLootContainers": [],
+        "masteries": false,
+        "addWeaponPreset": false,
+        "weaponPresets": [],
+        "masterySections": null
+    },
+    "66eeef8b2a166b0000200007": {
+        "itemTplToClone": "57514643245977207f2c2d09",
+        "parentId": "5448e8d64bdc2dce718b4568",
+        "handbookParentId": "5b47574386f77428ca22b335",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "BackgroundColor": "blue",
+            "StimulatorBuffs": "xtst_able_laudation_sustenance_buff",
+            "effects_health": {
+                "Energy": {
+                    "value": 30
+                },
+                "Hydration": {
+                    "value": 30
+                }
+            },
+            "weight": 0.1
+        },
+        "locales": {
+            "en": {
+                "name": "Laudation Sustenance",
+                "shortName": "LS",
+                "description": "A standardized ration beverage issued by Liturgy Systems,designed for efficient restoration of energy and hydration."
+            }
+        },
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [],
+        "fleaPriceRoubles": 30000,
+        "handbookPriceRoubles": 30000,
+        "addtoTraders": false,
+        "addtoBots": false,
+        "addtoStaticLootContainers": false,
+        "staticLootContainers": [],
+        "masteries": false,
+        "addWeaponPreset": false,
+        "weaponPresets": [],
+        "masterySections": null
+    },
+    "66eeef8b2a166b0000200008": {
+        "itemTplToClone": "59e7715586f7742ee5789605",
+        "parentId": "5a341c4686f77469e155819e",
+        "handbookParentId": "5b47574386f77428ca22b32f",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "BackgroundColor": "blue",
+            "ConflictingItems": [],
+            "Weight": 0.1,
+            "MaterialType": "BodyArmor",
+            "ArmorMaterial": "ArmoredSteel",
+            "DeafStrength": "High",
+            "BlindnessProtection": 0.7,
+            "ArmorType": "Heavy",
+            "speedPenaltyPercent": 10,
+            "weaponErgonomicPenalty": 15,
+            "armorClass": "3",
+            "Durability": 80,
+            "MaxDurability": 80,
+            "RepairCost": 10,
+            "RepairSpeed": 10,
+            "armorColliders": [
+                "Back",
+                "BackHead",
+                "Ears",
+                "NeckBack",
+                "NeckFront",
+                "Eyes",
+                "Groin",
+                "HeadCommon",
+                "Jaw",
+                "LeftCalf",
+                "LeftForearm",
+                "LeftSide",
+                "LeftSideChestDown",
+                "LeftSideChestUp",
+                "LeftThigh",
+                "LeftUpperArm",
+                "LowerBack",
+                "NeckBack",
+                "NeckFront",
+                "ParietalHead",
+                "Pelvis",
+                "PelvisBack",
+                "Ribcage",
+                "RibcageLow",
+                "RibcageUp",
+                "RightCalf",
+                "RightForearm",
+                "RightSide",
+                "RightSideChestDown",
+                "RightSideChestUp",
+                "RightThigh",
+                "RightUpperArm",
+                "SpineDown",
+                "SpineTop",
+                "Stomach"
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "Laudation Protective Terminal Mk.II",
+                "shortName": "LPT Mk.2",
+                "description": "“Significant improvement claimed. Results remain within expectations.”  —Internal development note"
+            }
+        },
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [],
+        "fleaPriceRoubles": 90000,
+        "handbookPriceRoubles": 90000,
+        "addtoTraders": false,
+        "addtoBots": false,
+        "addtoStaticLootContainers": false,
+        "staticLootContainers": [],
+        "masteries": false,
+        "addWeaponPreset": false,
+        "weaponPresets": [],
+        "masterySections": null
+    },
+    "66eeef8b2a166b0000200009": {
+        "itemTplToClone": "664a55d84a90fc2c8a6305c9",
+        "parentId": "5448bf274bdc2dfc2f8b456a",
+        "handbookParentId": "5b5f6fd286f774093f2ecf0d",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "BackgroundColor": "blue",
+            "Weight": -15,
+            "Grids": [
+                {
+                    "_id": "664a55d84a90fc2c8a632001",
+                    "_name": "1",
+                    "_parent": "66eeef8b2a166b0000200009",
+                    "_props": {
+                        "cellsH": 3,
+                        "cellsV": 4,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "66eeef8b2a166b0000100008",
+                                    "66eeef8b2a166b0000100009",
+                                    "66eeef8b2a166b0000200009",
+                                    "66eeef8b2a166b0000200010"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "664a55d84a90fc2c8a632002",
+                    "_name": "2",
+                    "_parent": "66eeef8b2a166b0000200009",
+                    "_props": {
+                        "cellsH": 1,
+                        "cellsV": 4,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [],
+                                "Filter": [
+                                    "66eeef8b2a166b0000100008",
+                                    "66eeef8b2a166b0000100009",
+                                    "66eeef8b2a166b0000200009",
+                                    "66eeef8b2a166b0000200010",
+                                    "5485a8684bdc2da71d8b4567",
+                                    "543be5cb4bdc2deb348b4568",
+                                    "5e2af51086f7746d3f3c3402",
+                                    "5656eb674bdc2d35148b457c",
+                                    "5ede474b0c226a66f5402622",
+                                    "5ede475b549eed7c6d5c18fb",
+                                    "5ede4739e0350d05467f73e8",
+                                    "5f0c892565703e5c461894e9",
+                                    "5ede47405b097655935d7d16",
+                                    "5ede475339ee016e8c534742",
+                                    "5ede47641cf3836a88318df1",
+                                    "543be6564bdc2df4348b4568",
+                                    "57864c8c245977548867e7f1",
+                                    "543be5664bdc2dd4348b4569",
+                                    "543be6674bdc2df1348b4569",
+                                    "5c99f98d86f7745c314214b3",
+                                    "543be5dd4bdc2deb348b4569",
+                                    "5447bedf4bdc2d87278b4568",
+                                    "5447e0e74bdc2d3c308b4567",
+                                    "5447bee84bdc2dc3278b4569",
+                                    "5795f317245977243854e041"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "6656741458ffda3ac0682003",
+                    "_name": "3",
+                    "_parent": "66eeef8b2a166b0000200009",
+                    "_props": {
+                        "cellsH": 1,
+                        "cellsV": 4,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "66eeef8b2a166b0000100008",
+                                    "66eeef8b2a166b0000100009",
+                                    "66eeef8b2a166b0000200009",
+                                    "66eeef8b2a166b0000200010"
+                                ],
+                                "Filter": [
+                                    "5485a8684bdc2da71d8b4567",
+                                    "543be5cb4bdc2deb348b4568",
+                                    "5e2af51086f7746d3f3c3402",
+                                    "5656eb674bdc2d35148b457c",
+                                    "5ede474b0c226a66f5402622",
+                                    "5ede475b549eed7c6d5c18fb",
+                                    "5ede4739e0350d05467f73e8",
+                                    "5f0c892565703e5c461894e9",
+                                    "5ede47405b097655935d7d16",
+                                    "5ede475339ee016e8c534742",
+                                    "5ede47641cf3836a88318df1",
+                                    "543be6564bdc2df4348b4568",
+                                    "57864c8c245977548867e7f1",
+                                    "543be5664bdc2dd4348b4569",
+                                    "543be6674bdc2df1348b4569",
+                                    "5c99f98d86f7745c314214b3",
+                                    "543be5dd4bdc2deb348b4569",
+                                    "5447bedf4bdc2d87278b4568",
+                                    "5447e0e74bdc2d3c308b4567",
+                                    "5447bee84bdc2dc3278b4569",
+                                    "5795f317245977243854e041"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "Laudation Secure Container",
+                "shortName": "Laudation SC",
+                "description": "Each additional compartment is an act of praise toward the limits of carry capacity."
+            }
+        },
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [],
+        "fleaPriceRoubles": 50000,
+        "handbookPriceRoubles": 50000,
+        "addtoTraders": false,
+        "addtoBots": false,
+        "addtoStaticLootContainers": false,
+        "staticLootContainers": [],
+        "masteries": false,
+        "addWeaponPreset": false,
+        "weaponPresets": [],
+        "masterySections": null
+    },
+    "66eeef8b2a166b0000200010": {
+        "itemTplToClone": "5c093e3486f77430cb02e593",
+        "parentId": "5795f317245977243854e041",
+        "handbookParentId": "5b5f6fa186f77409407a7eb7",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "BackgroundColor": "blue",
+            "Weight": -7,
+            "Grids": [
+                {
+                    "_id": "5c093e3486f77430cb02e001",
+                    "_name": "main",
+                    "_parent": "66eeef8b2a166b0000100009",
+                    "_props": {
+                        "cellsH": 3,
+                        "cellsV": 5,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "66eeef8b2a166b0000100008",
+                                    "66eeef8b2a166b0000100009",
+                                    "66eeef8b2a166b0000200009",
+                                    "66eeef8b2a166b0000200010"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": " Laudation Expansion Module",
+                "shortName": "LEM",
+                "description": "A protocol-certified expansion module."
+            }
+        },
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [],
+        "fleaPriceRoubles": 150000,
+        "handbookPriceRoubles": 150000,
+        "addtoTraders": false,
+        "addtoBots": false,
+        "addtoStaticLootContainers": false,
+        "staticLootContainers": [],
+        "masteries": false,
+        "addWeaponPreset": false,
+        "weaponPresets": [],
+        "masterySections": null
+    }
+}

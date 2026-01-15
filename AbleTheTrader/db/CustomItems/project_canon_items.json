@@ -1,0 +1,790 @@
+{
+    "66eeef8b2a166b0000100001": {
+        "itemTplToClone": "5d02778e86f774203e7dedbe",
+        "parentId": "5448f3ac4bdc2dce718b4569",
+        "handbookParentId": "5b47574386f77428ca22b338",
+        "overrideProperties": {
+            "AnimationVariantsNumber": 0,
+            "BackgroundColor": "yellow",
+            "BodyPartPriority": [
+                "Stomach",
+                "RightLeg",
+                "LeftLeg",
+                "RightArm",
+                "LeftArm"
+            ],
+            "CanRequireOnRagfair": false,
+            "CanSellOnRagfair": true,
+            "ConflictingItems": [],
+            "DiscardLimit": -1,
+            "DiscardingBlock": false,
+            "DropSoundType": "None",
+            "ExamineExperience": 2,
+            "ExamineTime": 1,
+            "ExaminedByDefault": true,
+            "ExtraSizeDown": 0,
+            "ExtraSizeForceAdd": false,
+            "ExtraSizeLeft": 0,
+            "ExtraSizeRight": 0,
+            "ExtraSizeUp": 0,
+            "Height": 1,
+            "HideEntrails": false,
+            "InsuranceDisabled": false,
+            "IsAlwaysAvailableForInsurance": false,
+            "IsLockedafterEquip": false,
+            "IsSecretExitRequirement": false,
+            "IsSpecialSlotOnly": false,
+            "IsUnbuyable": false,
+            "IsUndiscardable": false,
+            "IsUngivable": false,
+            "IsUnremovable": false,
+            "IsUnsaleable": false,
+            "ItemSound": "med_medkit",
+            "LeftHandItem": false,
+            "LootExperience": 10,
+            "MaxHpResource": 3,
+            "MergesWithChildren": false,
+            "MetascoreGroup": "Utility",
+            "NotShownInSlot": false,
+            "Prefab": {
+                "path": "assets/content/weapons/usable_items/item_meds_core_medical_surgical_kit/item_meds_core_medical_surgical_kit_loot.bundle",
+                "rcid": ""
+            },
+            "QuestItem": false,
+            "QuestStashMaxCount": 0,
+            "RagFairCommissionModifier": 1,
+            "RarityPvE": "Rare",
+            "RepairCost": 0,
+            "RepairSpeed": 0,
+            "StackMaxSize": 1,
+            "StackObjectsCount": 1,
+            "StimulatorBuffs": "xtst_able_canon_surgical_kit_buff",
+            "Unlootable": false,
+            "UnlootableFromSide": [],
+            "UnlootableFromSlot": "FirstPrimaryWeapon",
+            "UsePrefab": {
+                "path": "assets/content/weapons/usable_items/item_meds_core_medical_surgical_kit/item_meds_core_medical_surgical_kit_container.bundle",
+                "rcid": ""
+            },
+            "Weight": 0.4,
+            "Width": 2,
+            "effects_damage": {
+                "DestroyedPart": {
+                    "delay": 0,
+                    "duration": 0,
+                    "fadeOut": 0,
+                    "healthPenaltyMax": 80,
+                    "healthPenaltyMin": 60
+                },
+                "Fracture": {
+                    "delay": 0,
+                    "duration": 0,
+                    "fadeOut": 0
+                },
+                "LightBleeding": {
+                    "delay": 0,
+                    "duration": 0,
+                    "fadeOut": 0
+                },
+                "HeavyBleeding": {
+                    "delay": 0,
+                    "duration": 0,
+                    "fadeOut": 0
+                },
+                "Contusion": {
+                    "delay": 0,
+                    "duration": 0,
+                    "fadeOut": 0
+                },
+                "RadExposure": {
+                    "delay": 0,
+                    "duration": 0,
+                    "fadeOut": 0
+                }
+            },
+            "effects_health": [],
+            "hpResourceRate": 0,
+            "medEffectType": "duringUse",
+            "medUseTime": 12
+        },
+        "locales": {
+            "en": {
+                "name": "Canon Surgical Kit",
+                "shortName": "CSK",
+                "description": "Optimized surgical procedures based on standardized trauma doctrine."
+            }
+        },
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [],
+        "fleaPriceRoubles": 21000,
+        "handbookPriceRoubles": 21000,
+        "addtoTraders": false,
+        "addtoBots": false,
+        "addtoStaticLootContainers": false,
+        "staticLootContainers": [],
+        "masteries": false,
+        "addWeaponPreset": false,
+        "weaponPresets": [],
+        "masterySections": null
+    },
+    "66eeef8b2a166b0000100002": {
+        "itemTplToClone": "590c661e86f7741e566b646a",
+        "parentId": "5448f39d4bdc2d0a728b4568",
+        "handbookParentId": "5b47574386f77428ca22b338",
+        "overrideProperties": {
+            "AnimationVariantsNumber": 3,
+            "BackgroundColor": "yellow",
+            "BodyPartPriority": [],
+            "CanRequireOnRagfair": false,
+            "CanSellOnRagfair": true,
+            "ConflictingItems": [],
+            "Description": "ABLE_CMP",
+            "DiscardLimit": -1,
+            "DiscardingBlock": false,
+            "DropSoundType": "None",
+            "ExamineExperience": 10,
+            "ExamineTime": 1,
+            "ExaminedByDefault": true,
+            "ExtraSizeDown": 0,
+            "ExtraSizeForceAdd": false,
+            "ExtraSizeLeft": 0,
+            "ExtraSizeRight": 0,
+            "ExtraSizeUp": 0,
+            "Height": 1,
+            "HideEntrails": false,
+            "InsuranceDisabled": false,
+            "IsAlwaysAvailableForInsurance": false,
+            "IsLockedafterEquip": false,
+            "IsSecretExitRequirement": false,
+            "IsSpecialSlotOnly": false,
+            "IsUnbuyable": false,
+            "IsUndiscardable": false,
+            "IsUngivable": false,
+            "IsUnremovable": false,
+            "IsUnsaleable": false,
+            "ItemSound": "med_medkit",
+            "LeftHandItem": false,
+            "LootExperience": 10,
+            "MaxHpResource": 300,
+            "MergesWithChildren": false,
+            "MetascoreGroup": "Utility",
+            "Name": "ABLE_CMP",
+            "NotShownInSlot": false,
+            "Prefab": {
+                "path": "assets/content/weapons/usable_items/item_automedkit/item_automedkit_loot.bundle",
+                "rcid": ""
+            },
+            "QuestItem": false,
+            "QuestStashMaxCount": 0,
+            "RagFairCommissionModifier": 1,
+            "RarityPvE": "Common",
+            "RepairCost": 0,
+            "RepairSpeed": 0,
+            "ShortName": "ABLE_CMP",
+            "StackMaxSize": 1,
+            "StackObjectsCount": 1,
+            "StimulatorBuffs": "",
+            "Unlootable": false,
+            "UnlootableFromSide": [],
+            "UnlootableFromSlot": "FirstPrimaryWeapon",
+            "UsePrefab": {
+                "path": "assets/content/weapons/usable_items/item_automedkit/item_automedkit_container.bundle",
+                "rcid": ""
+            },
+            "Weight": 0.5,
+            "Width": 2,
+            "effects_damage": {
+                "LightBleeding": {
+                    "delay": 0,
+                    "duration": 0,
+                    "fadeOut": 0,
+                    "cost": 20
+                },
+                "HeavyBleeding": {
+                    "delay": 0,
+                    "duration": 0,
+                    "fadeOut": 0,
+                    "cost": 40
+                },
+                "Fracture": {
+                    "delay": 0,
+                    "duration": 0,
+                    "fadeOut": 0,
+                    "cost": 100
+                },
+                "Contusion": {
+                    "delay": 0,
+                    "duration": 0,
+                    "fadeOut": 0,
+                    "cost": 50
+                },
+                "RadExposure": {
+                    "delay": 0,
+                    "duration": 0,
+                    "fadeOut": 0,
+                    "cost": 100
+                }
+            },
+            "effects_health": [],
+            "hpResourceRate": 50,
+            "medEffectType": "duringUse",
+            "medUseTime": 3
+        },
+        "locales": {
+            "en": {
+                "name": "Canon Medical Pack",
+                "shortName": "CMP",
+                "description": "A comprehensive medical solution built strictly within accepted limits."
+            }
+        },
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [],
+        "fleaPriceRoubles": 30000,
+        "handbookPriceRoubles": 30000,
+        "addtoTraders": false,
+        "addtoBots": false,
+        "addtoStaticLootContainers": false,
+        "staticLootContainers": [],
+        "masteries": false,
+        "addWeaponPreset": false,
+        "weaponPresets": [],
+        "masterySections": null
+    },
+    "66eeef8b2a166b0000100003": {
+        "itemTplToClone": "5c0e530286f7747fa1419862",
+        "parentId": "5448f3a64bdc2d60728b456a",
+        "handbookParentId": "5b47574386f77428ca22b33a",
+        "overrideProperties": {
+            "AnimationVariantsNumber": 0,
+            "BackgroundColor": "yellow",
+            "BodyPartPriority": [],
+            "CanRequireOnRagfair": false,
+            "CanSellOnRagfair": true,
+            "ConflictingItems": [],
+            "Description": "",
+            "DiscardLimit": 2,
+            "DiscardingBlock": false,
+            "DropSoundType": "None",
+            "ExamineExperience": 8,
+            "ExamineTime": 1,
+            "ExaminedByDefault": true,
+            "ExtraSizeDown": 0,
+            "ExtraSizeForceAdd": false,
+            "ExtraSizeLeft": 0,
+            "ExtraSizeRight": 0,
+            "ExtraSizeUp": 0,
+            "Height": 1,
+            "HideEntrails": false,
+            "InsuranceDisabled": false,
+            "IsAlwaysAvailableForInsurance": false,
+            "IsLockedafterEquip": false,
+            "IsSecretExitRequirement": false,
+            "IsSpecialSlotOnly": false,
+            "IsUnbuyable": false,
+            "IsUndiscardable": false,
+            "IsUngivable": false,
+            "IsUnremovable": false,
+            "IsUnsaleable": false,
+            "ItemSound": "med_stimulator",
+            "LeftHandItem": false,
+            "LootExperience": 10,
+            "MaxHpResource": 3,
+            "MergesWithChildren": false,
+            "MetascoreGroup": "Utility",
+            "Name": "c04",
+            "NotShownInSlot": false,
+            "Prefab": {
+                "path": "assets/content/weapons/usable_items/item_syringe/item_stimulator_propital_loot.bundle",
+                "rcid": ""
+            },
+            "QuestItem": false,
+            "QuestStashMaxCount": 0,
+            "RagFairCommissionModifier": 1,
+            "RarityPvE": "Superrare",
+            "RepairCost": 0,
+            "RepairSpeed": 0,
+            "ShortName": "c04",
+            "StackMaxSize": 1,
+            "StackObjectsCount": 1,
+            "StimulatorBuffs": "xtst_able_canon_c04_analgesic_buff",
+            "Unlootable": false,
+            "UnlootableFromSide": [],
+            "UnlootableFromSlot": "FirstPrimaryWeapon",
+            "UsePrefab": {
+                "path": "assets/content/weapons/usable_items/item_syringe/item_stimulator_propital_container.bundle",
+                "rcid": ""
+            },
+            "Weight": 0.05,
+            "Width": 1,
+            "effects_damage": {
+                "Contusion": {
+                    "Delay": 3,
+                    "Duration": 120,
+                    "fadeOut": 0
+                },
+                "Pain": {
+                    "Delay": 3,
+                    "Duration": 120,
+                    "fadeOut": 0
+                },
+                "LightBleeding": {
+                    "delay": 3,
+                    "duration": 120,
+                    "fadeOut": 0
+                },
+                "HeavyBleeding": {
+                    "delay": 3,
+                    "duration": 120,
+                    "fadeOut": 0
+                }
+            },
+            "effects_health": [],
+            "hpResourceRate": 0,
+            "medEffectType": "duringUse",
+            "medUseTime": 1
+        },
+        "locales": {
+            "en": {
+                "name": "C-04 Analgesic",
+                "shortName": "C04A",
+                "description": "Reduces pain response without suppressing sensory feedback."
+            }
+        },
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [],
+        "fleaPriceRoubles": 90000,
+        "handbookPriceRoubles": 90000,
+        "addtoTraders": false,
+        "addtoBots": false,
+        "addtoStaticLootContainers": false,
+        "staticLootContainers": [],
+        "masteries": false,
+        "addWeaponPreset": false,
+        "weaponPresets": [],
+        "masterySections": null
+    },
+    "66eeef8b2a166b0000100004": {
+        "itemTplToClone": "5ed51652f6c34d2cc26336a1",
+        "parentId": "5448f3a64bdc2d60728b456a",
+        "handbookParentId": "5b47574386f77428ca22b33a",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "AnimationVariantsNumber": 0,
+            "BackgroundColor": "yellow",
+            "BodyPartPriority": [],
+            "CanRequireOnRagfair": false,
+            "CanSellOnRagfair": true,
+            "ConflictingItems": [],
+            "Description": "",
+            "DiscardLimit": 2,
+            "DiscardingBlock": false,
+            "DropSoundType": "None",
+            "ExamineExperience": 100,
+            "ExamineTime": 1,
+            "ExtraSizeDown": 0,
+            "ExtraSizeForceAdd": false,
+            "ExtraSizeLeft": 0,
+            "ExtraSizeRight": 0,
+            "ExtraSizeUp": 0,
+            "Height": 1,
+            "HideEntrails": false,
+            "InsuranceDisabled": false,
+            "IsAlwaysAvailableForInsurance": false,
+            "IsLockedafterEquip": false,
+            "IsSecretExitRequirement": false,
+            "IsSpecialSlotOnly": false,
+            "IsUnbuyable": false,
+            "IsUndiscardable": false,
+            "IsUngivable": false,
+            "IsUnremovable": false,
+            "IsUnsaleable": false,
+            "ItemSound": "med_stimulator",
+            "LeftHandItem": false,
+            "LootExperience": 10,
+            "MaxHpResource": 3,
+            "MergesWithChildren": false,
+            "MetascoreGroup": "Utility",
+            "Name": "M.U.L.E",
+            "NotShownInSlot": false,
+            "Prefab": {
+                "path": "assets/content/weapons/usable_items/item_syringe/item_stimulator_mule_loot.bundle",
+                "rcid": ""
+            },
+            "QuestItem": false,
+            "QuestStashMaxCount": 0,
+            "RagFairCommissionModifier": 1,
+            "RarityPvE": "Superrare",
+            "RepairCost": 0,
+            "RepairSpeed": 0,
+            "ShortName": "M.U.L.E",
+            "StackMaxSize": 1,
+            "StackObjectsCount": 1,
+            "StimulatorBuffs": "xtst_able_canon_c07_stimulant_buff",
+            "Unlootable": false,
+            "UnlootableFromSide": [],
+            "UnlootableFromSlot": "FirstPrimaryWeapon",
+            "UsePrefab": {
+                "path": "assets/content/weapons/usable_items/item_syringe/item_stimulator_mule_container.bundle",
+                "rcid": ""
+            },
+            "Weight": 0.05,
+            "Width": 1,
+            "effects_damage": [],
+            "effects_health": [],
+            "hpResourceRate": 0,
+            "medEffectType": "duringUse",
+            "medUseTime": 2
+        },
+        "locales": {
+            "en": {
+                "name": "C-07 Stimulant",
+                "shortName": "C07S",
+                "description": "Temporarily elevates physical output beyond sustainable levels."
+            }
+        },
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [],
+        "fleaPriceRoubles": 30000,
+        "handbookPriceRoubles": 30000,
+        "addtoTraders": false,
+        "addtoBots": false,
+        "addtoStaticLootContainers": false,
+        "staticLootContainers": [],
+        "masteries": false,
+        "addWeaponPreset": false,
+        "weaponPresets": [],
+        "masterySections": null
+    },
+    "66eeef8b2a166b0000100005": {
+        "itemTplToClone": "5c0e531286f7747fa54205c2",
+        "parentId": "5448f3a64bdc2d60728b456a",
+        "handbookParentId": "5b47574386f77428ca22b33a",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "BackgroundColor": "yellow",
+            "StimulatorBuffs": "xtst_able_canon_c12_emergency_protocol_buff",
+            "effects_damage": {
+                "Contusion": {
+                    "Delay": 1,
+                    "Duration": 30,
+                    "fadeOut": 0
+                },
+                "Pain": {
+                    "Delay": 1,
+                    "Duration": 30,
+                    "fadeOut": 0
+                },
+                "LightBleeding": {
+                    "delay": 1,
+                    "duration": 30,
+                    "fadeOut": 0
+                },
+                "HeavyBleeding": {
+                    "delay": 1,
+                    "duration": 30,
+                    "fadeOut": 0
+                }
+            }
+        },
+        "locales": {
+            "en": {
+                "name": "C-12 Emergency Protocol",
+                "shortName": "C12EP",
+                "description": "Intended for last-resort physiological stabilization."
+            }
+        },
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [],
+        "fleaPriceRoubles": 50000,
+        "handbookPriceRoubles": 50000,
+        "addtoTraders": false,
+        "addtoBots": false,
+        "addtoStaticLootContainers": false,
+        "staticLootContainers": [],
+        "masteries": false,
+        "addWeaponPreset": false,
+        "weaponPresets": [],
+        "masterySections": null
+    },
+    "66eeef8b2a166b0000100006": {
+        "itemTplToClone": "575062b524597720a31c09a1",
+        "parentId": "5448e8d64bdc2dce718b4568",
+        "handbookParentId": "5b47574386f77428ca22b335",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "BackgroundColor": "yellow",
+            "effects_health": {
+                "Energy": {
+                    "value": 30
+                },
+                "Hydration": {
+                    "value": 30
+                }
+            },
+            "weight": 0.1
+        },
+        "locales": {
+            "en": {
+                "name": "Canon Ration Drink",
+                "shortName": "CRD",
+                "description": "A standardized ration beverage issued by Liturgy Systems,designed for efficient restoration of energy and hydration."
+            }
+        },
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [],
+        "fleaPriceRoubles": 10000,
+        "handbookPriceRoubles": 10000,
+        "addtoTraders": false,
+        "addtoBots": false,
+        "addtoStaticLootContainers": false,
+        "staticLootContainers": [],
+        "masteries": false,
+        "addWeaponPreset": false,
+        "weaponPresets": [],
+        "masterySections": null
+    },
+    "66eeef8b2a166b0000100007": {
+        "itemTplToClone": "59e7715586f7742ee5789605",
+        "parentId": "5a341c4686f77469e155819e",
+        "handbookParentId": "5b47574386f77428ca22b32f",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "BackgroundColor": "yellow",
+            "ConflictingItems": [],
+            "Weight": 0.1,
+            "MaterialType": "BodyArmor",
+            "ArmorMaterial": "ArmoredSteel",
+            "DeafStrength": "Low",
+            "BlindnessProtection": 0.7,
+            "ArmorType": "Heavy",
+            "speedPenaltyPercent": 10,
+            "weaponErgonomicPenalty": 15,
+            "armorClass": "2",
+            "Durability": 80,
+            "MaxDurability": 80,
+            "RepairCost": 10,
+            "RepairSpeed": 10,
+            "armorColliders": [
+                "Back",
+                "BackHead",
+                "Ears",
+                "NeckBack",
+                "NeckFront",
+                "Eyes",
+                "Groin",
+                "HeadCommon",
+                "Jaw",
+                "LeftCalf",
+                "LeftForearm",
+                "LeftSide",
+                "LeftSideChestDown",
+                "LeftSideChestUp",
+                "LeftThigh",
+                "LeftUpperArm",
+                "LowerBack",
+                "NeckBack",
+                "NeckFront",
+                "ParietalHead",
+                "Pelvis",
+                "PelvisBack",
+                "Ribcage",
+                "RibcageLow",
+                "RibcageUp",
+                "RightCalf",
+                "RightForearm",
+                "RightSide",
+                "RightSideChestDown",
+                "RightSideChestUp",
+                "RightThigh",
+                "RightUpperArm",
+                "SpineDown",
+                "SpineTop",
+                "Stomach"
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "Canon Protective Terminal Mk.I",
+                "shortName": "CPT Mk.1",
+                "description": "An early-stage personal protection unit.Minimal coverage, but the underlying technical approach proved viable."
+            }
+        },
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [],
+        "fleaPriceRoubles": 50000,
+        "handbookPriceRoubles": 50000,
+        "addtoTraders": false,
+        "addtoBots": false,
+        "addtoStaticLootContainers": false,
+        "staticLootContainers": [],
+        "masteries": false,
+        "addWeaponPreset": false,
+        "weaponPresets": [],
+        "masterySections": null
+    },
+    "66eeef8b2a166b0000100008": {
+        "itemTplToClone": "664a55d84a90fc2c8a6305c9",
+        "parentId": "5448bf274bdc2dfc2f8b456a",
+        "handbookParentId": "5b5f6fd286f774093f2ecf0d",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "BackgroundColor": "yellow",
+            "Weight": -10,
+            "Grids": [
+                {
+                    "_id": "664a55d84a90fc2c8a630003",
+                    "_name": "1",
+                    "_parent": "66eeef8b2a166b0000100007",
+                    "_props": {
+                        "cellsH": 3,
+                        "cellsV": 4,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "66eeef8b2a166b0000100008",
+                                    "66eeef8b2a166b0000100009"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "6656741458ffda3ac068e002",
+                    "_name": "2",
+                    "_parent": "66eeef8b2a166b0000100007",
+                    "_props": {
+                        "cellsH": 1,
+                        "cellsV": 4,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [],
+                                "Filter": [
+                                    "66eeef8b2a166b0000100008",
+                                    "66eeef8b2a166b0000100009",
+                                    "5485a8684bdc2da71d8b4567",
+                                    "543be5cb4bdc2deb348b4568",
+                                    "5e2af51086f7746d3f3c3402",
+                                    "5656eb674bdc2d35148b457c",
+                                    "5ede474b0c226a66f5402622",
+                                    "5ede475b549eed7c6d5c18fb",
+                                    "5ede4739e0350d05467f73e8",
+                                    "5f0c892565703e5c461894e9",
+                                    "5ede47405b097655935d7d16",
+                                    "5ede475339ee016e8c534742",
+                                    "5ede47641cf3836a88318df1",
+                                    "543be6564bdc2df4348b4568",
+                                    "57864c8c245977548867e7f1",
+                                    "543be5664bdc2dd4348b4569",
+                                    "543be6674bdc2df1348b4569",
+                                    "5c99f98d86f7745c314214b3",
+                                    "543be5dd4bdc2deb348b4569",
+                                    "5447bedf4bdc2d87278b4568",
+                                    "5447e0e74bdc2d3c308b4567",
+                                    "5447bee84bdc2dc3278b4569",
+                                    "5795f317245977243854e041"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "Canon Expanded Secure Container",
+                "shortName": "Canon SC",
+                "description": "A standardized secure container with conservative internal reconfiguration. No miracles promised. Reliability ensured."
+            }
+        },
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [],
+        "fleaPriceRoubles": 50000,
+        "handbookPriceRoubles": 50000,
+        "addtoTraders": false,
+        "addtoBots": false,
+        "addtoStaticLootContainers": false,
+        "staticLootContainers": [],
+        "masteries": false,
+        "addWeaponPreset": false,
+        "weaponPresets": [],
+        "masterySections": null
+    },
+    "66eeef8b2a166b0000100009": {
+        "itemTplToClone": "5c093e3486f77430cb02e593",
+        "parentId": "5795f317245977243854e041",
+        "handbookParentId": "5b5f6fa186f77409407a7eb7",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "BackgroundColor": "yellow",
+            "Weight": -5,
+            "Grids": [
+                {
+                    "_id": "5c093e3486f77430cb02e001",
+                    "_name": "main",
+                    "_parent": "66eeef8b2a166b0000100009",
+                    "_props": {
+                        "cellsH": 2,
+                        "cellsV": 5,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "66eeef8b2a166b0000100008",
+                                    "66eeef8b2a166b0000100009"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "Canon Secure Container Expansion Module",
+                "shortName": "CEM",
+                "description": "An early modular expansion unit designed to validate spatial nesting theory. Limited in scale, correct in direction."
+            }
+        },
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [],
+        "fleaPriceRoubles": 150000,
+        "handbookPriceRoubles": 150000,
+        "addtoTraders": false,
+        "addtoBots": false,
+        "addtoStaticLootContainers": false,
+        "staticLootContainers": [],
+        "masteries": false,
+        "addWeaponPreset": false,
+        "weaponPresets": [],
+        "masterySections": null
+    }
+}

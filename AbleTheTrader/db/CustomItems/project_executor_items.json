@@ -1,0 +1,756 @@
+{
+    "66eeef8b2a166b0000300001": {
+        "itemTplToClone": "5af0454c86f7746bf20992e8",
+        "parentId": "5448f3ac4bdc2dce718b4569",
+        "handbookParentId": "5b47574386f77428ca22b338",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "BackgroundColor": "violet",
+            "medUseTime": 5,
+            "MaxHpResource": 5,
+            "Weight": 0.05,
+            "Width": 1,
+            "Height": 1,
+            "StimulatorBuffs": "xtst_able_canon_surgical_kit_buff",
+            "effects_damage": {
+                "DestroyedPart": {
+                    "delay": 0,
+                    "duration": 0,
+                    "fadeOut": 0,
+                    "healthPenaltyMax": 100,
+                    "healthPenaltyMin": 85
+                },
+                "Fracture": {
+                    "delay": 0,
+                    "duration": 0,
+                    "fadeOut": 0
+                },
+                "LightBleeding": {
+                    "delay": 0,
+                    "duration": 0,
+                    "fadeOut": 0
+                },
+                "HeavyBleeding": {
+                    "delay": 0,
+                    "duration": 0,
+                    "fadeOut": 0
+                },
+                "Contusion": {
+                    "delay": 0,
+                    "duration": 0,
+                    "fadeOut": 0
+                },
+                "RadExposure": {
+                    "delay": 0,
+                    "duration": 0,
+                    "fadeOut": 0
+                }
+            },
+            "effects_health": []
+        },
+        "locales": {
+            "en": {
+                "name": "\"The Mender\" Nanoscale surgical system",
+                "shortName": "Mender",
+                "description": "Automated micro-scale repair prioritizing speed over preservation. Downtime is treated as failure."
+            }
+        },
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [],
+        "fleaPriceRoubles": 75000,
+        "handbookPriceRoubles": 75000,
+        "addtoTraders": false,
+        "addtoBots": false,
+        "addtoStaticLootContainers": false,
+        "staticLootContainers": [],
+        "masteries": false,
+        "addWeaponPreset": false,
+        "weaponPresets": [],
+        "masterySections": null
+    },
+    "66eeef8b2a166b0000300002": {
+        "itemTplToClone": "590c678286f77426c9660122",
+        "parentId": "5448f3ac4bdc2dce718b4569",
+        "handbookParentId": "5b47574386f77428ca22b338",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "BackgroundColor": "violet",
+            "medUseTime": 2,
+            "hpResourceRate": 80,
+            "MaxHpResource": 500,
+            "Weight": 0.05,
+            "Width": 1,
+            "Height": 1,
+            "StimulatorBuffs": "",
+            "effects_damage": {
+                "LightBleeding": {
+                    "delay": 0,
+                    "duration": 0,
+                    "fadeOut": 0,
+                    "cost": 10
+                },
+                "HeavyBleeding": {
+                    "delay": 0,
+                    "duration": 0,
+                    "fadeOut": 0,
+                    "cost": 20
+                },
+                "Fracture": {
+                    "delay": 0,
+                    "duration": 0,
+                    "fadeOut": 0,
+                    "cost": 50
+                },
+                "Contusion": {
+                    "delay": 0,
+                    "duration": 0,
+                    "fadeOut": 0,
+                    "cost": 20
+                },
+                "RadExposure": {
+                    "delay": 0,
+                    "duration": 0,
+                    "fadeOut": 0,
+                    "cost": 40
+                }
+            },
+            "effects_health": []
+        },
+        "locales": {
+            "en": {
+                "name": "\"The Sustainer\" Combat Trauma Kit",
+                "shortName": "Sustainer",
+                "description": "Suppresses higher neural functions to ensure continued action. What is lost is considered acceptable."
+            }
+        },
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [],
+        "fleaPriceRoubles": 60000,
+        "handbookPriceRoubles": 60000,
+        "addtoTraders": false,
+        "addtoBots": false,
+        "addtoStaticLootContainers": false,
+        "staticLootContainers": [],
+        "masteries": false,
+        "addWeaponPreset": false,
+        "weaponPresets": [],
+        "masterySections": null
+    },
+    "66eeef8b2a166b0000300003": {
+        "itemTplToClone": "5c0e530286f7747fa1419862",
+        "parentId": "5448f3a64bdc2d60728b456a",
+        "handbookParentId": "5b47574386f77428ca22b33a",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "AnimationVariantsNumber": 0,
+            "BackgroundColor": "violet",
+            "StimulatorBuffs": "xtst_able_executor_the_veil_buff",
+            "MaxHpResource": 5,
+            "Weight": 0.05,
+            "effects_damage": {
+                "Contusion": {
+                    "Delay": 3,
+                    "Duration": 300,
+                    "fadeOut": 0
+                },
+                "Pain": {
+                    "Delay": 3,
+                    "Duration": 300,
+                    "fadeOut": 0
+                },
+                "LightBleeding": {
+                    "delay": 3,
+                    "duration": 300,
+                    "fadeOut": 0
+                },
+                "HeavyBleeding": {
+                    "delay": 3,
+                    "duration": 300,
+                    "fadeOut": 0
+                }
+            },
+            "effects_health": [],
+            "medUseTime": 1
+        },
+        "locales": {
+            "en": {
+                "name": "\"The Veil\" Central nervous system inhibitor",
+                "shortName": "Veil",
+                "description": "Reduces pain response without suppressing sensory feedback."
+            }
+        },
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [],
+        "fleaPriceRoubles": 200000,
+        "handbookPriceRoubles": 200000,
+        "addtoTraders": false,
+        "addtoBots": false,
+        "addtoStaticLootContainers": false,
+        "staticLootContainers": [],
+        "masteries": false,
+        "addWeaponPreset": false,
+        "weaponPresets": [],
+        "masterySections": null
+    },
+    "66eeef8b2a166b0000300004": {
+        "itemTplToClone": "5ed51652f6c34d2cc26336a1",
+        "parentId": "5448f3a64bdc2d60728b456a",
+        "handbookParentId": "5b47574386f77428ca22b33a",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "AnimationVariantsNumber": 0,
+            "BackgroundColor": "violet",
+            "Height": 1,
+            "MaxHpResource": 5,
+            "StimulatorBuffs": "xtst_able_executor_the_burden_buff",
+            "Weight": 0.05,
+            "Width": 1,
+            "effects_damage": [],
+            "effects_health": [],
+            "hpResourceRate": 0,
+            "medEffectType": "duringUse",
+            "medUseTime": 2
+        },
+        "locales": {
+            "en": {
+                "name": "\"The Burden\" Stimulant",
+                "shortName": "Burden",
+                "description": "Forces continued movement under extreme load. Stopping is not an evaluated option."
+            }
+        },
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [],
+        "fleaPriceRoubles": 300000,
+        "handbookPriceRoubles": 300000,
+        "addtoTraders": false,
+        "addtoBots": false,
+        "addtoStaticLootContainers": false,
+        "staticLootContainers": [],
+        "masteries": false,
+        "addWeaponPreset": false,
+        "weaponPresets": [],
+        "masterySections": null
+    },
+    "66eeef8b2a166b0000300005": {
+        "itemTplToClone": "5c0e531286f7747fa54205c2",
+        "parentId": "5448f3a64bdc2d60728b456a",
+        "handbookParentId": "5b47574386f77428ca22b33a",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "BackgroundColor": "violet",
+            "StimulatorBuffs": "xtst_able_executor_the_mandate_buff",
+            "MaxHpResource": 3,
+            "effects_damage": {
+                "Contusion": {
+                    "Delay": 1,
+                    "Duration": 60,
+                    "fadeOut": 0
+                },
+                "Pain": {
+                    "Delay": 1,
+                    "Duration": 60,
+                    "fadeOut": 0
+                },
+                "LightBleeding": {
+                    "delay": 1,
+                    "duration": 60,
+                    "fadeOut": 0
+                },
+                "HeavyBleeding": {
+                    "delay": 1,
+                    "duration": 60,
+                    "fadeOut": 0
+                }
+            }
+        },
+        "locales": {
+            "en": {
+                "name": "\"The Mandate\" Emergency Protocol",
+                "shortName": "Mandate",
+                "description": "Overrides all restraint systems. Compliance is mandatory."
+            }
+        },
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [],
+        "fleaPriceRoubles": 300000,
+        "handbookPriceRoubles": 300000,
+        "addtoTraders": false,
+        "addtoBots": false,
+        "addtoStaticLootContainers": false,
+        "staticLootContainers": [],
+        "masteries": false,
+        "addWeaponPreset": false,
+        "weaponPresets": [],
+        "masterySections": null
+    },
+    "66eeef8b2a166b0000300006": {
+        "itemTplToClone": "5751435d24597720a27126d1",
+        "parentId": "5448e8d64bdc2dce718b4568",
+        "handbookParentId": "5b47574386f77428ca22b335",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "BackgroundColor": "violet",
+            "StimulatorBuffs": "xtst_able_executor_the_provision_buff",
+            "effects_health": {
+                "Energy": {
+                    "value": 50
+                },
+                "Hydration": {
+                    "value": 55
+                }
+            },
+            "weight": 0.1
+        },
+        "locales": {
+            "en": {
+                "name": "\"The Provision\" Energy drink",
+                "shortName": "Provision",
+                "description": "A dense nutritional supply issued without ceremony. Consumption is advised before what comes next."
+            }
+        },
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [],
+        "fleaPriceRoubles": 50000,
+        "handbookPriceRoubles": 50000,
+        "addtoTraders": false,
+        "addtoBots": false,
+        "addtoStaticLootContainers": false,
+        "staticLootContainers": [],
+        "masteries": false,
+        "addWeaponPreset": false,
+        "weaponPresets": [],
+        "masterySections": null
+    },
+    "66eeef8b2a166b0000300007": {
+        "itemTplToClone": "59e7715586f7742ee5789605",
+        "parentId": "5a341c4686f77469e155819e",
+        "handbookParentId": "5b47574386f77428ca22b32f",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "BackgroundColor": "violet",
+            "ConflictingItems": [],
+            "Weight": 0.1,
+            "MaterialType": "BodyArmor",
+            "ArmorMaterial": "ArmoredSteel",
+            "DeafStrength": "High",
+            "BlindnessProtection": 0.7,
+            "ArmorType": "Heavy",
+            "speedPenaltyPercent": 10,
+            "weaponErgonomicPenalty": 15,
+            "armorClass": "4",
+            "Durability": 90,
+            "MaxDurability": 90,
+            "RepairCost": 10,
+            "RepairSpeed": 10,
+            "armorColliders": [
+                "Back",
+                "BackHead",
+                "Ears",
+                "NeckBack",
+                "NeckFront",
+                "Eyes",
+                "Groin",
+                "HeadCommon",
+                "Jaw",
+                "LeftCalf",
+                "LeftForearm",
+                "LeftSide",
+                "LeftSideChestDown",
+                "LeftSideChestUp",
+                "LeftThigh",
+                "LeftUpperArm",
+                "LowerBack",
+                "NeckBack",
+                "NeckFront",
+                "ParietalHead",
+                "Pelvis",
+                "PelvisBack",
+                "Ribcage",
+                "RibcageLow",
+                "RibcageUp",
+                "RightCalf",
+                "RightForearm",
+                "RightSide",
+                "RightSideChestDown",
+                "RightSideChestUp",
+                "RightThigh",
+                "RightUpperArm",
+                "SpineDown",
+                "SpineTop",
+                "Stomach"
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "Executor Protective Terminal",
+                "shortName": "EPT",
+                "description": "Finalized personal protection system integrated with Executor protocols."
+            }
+        },
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [],
+        "fleaPriceRoubles": 200000,
+        "handbookPriceRoubles": 200000,
+        "addtoTraders": false,
+        "addtoBots": false,
+        "addtoStaticLootContainers": false,
+        "staticLootContainers": [],
+        "masteries": false,
+        "addWeaponPreset": false,
+        "weaponPresets": [],
+        "masterySections": null
+    },
+    "66eeef8b2a166b0000300008": {
+        "itemTplToClone": "664a55d84a90fc2c8a6305c9",
+        "parentId": "5448bf274bdc2dfc2f8b456a",
+        "handbookParentId": "5b5f6fd286f774093f2ecf0d",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "BackgroundColor": "violet",
+            "Weight": -20,
+            "Grids": [
+                {
+                    "_id": "664a55d84a90fc2c8a633001",
+                    "_name": "1",
+                    "_parent": "66eeef8b2a166b0000300008",
+                    "_props": {
+                        "cellsH": 3,
+                        "cellsV": 4,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "66eeef8b2a166b0000100008",
+                                    "66eeef8b2a166b0000100009",
+                                    "66eeef8b2a166b0000200009",
+                                    "66eeef8b2a166b0000200010"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "664a55d84a90fc2c8a633002",
+                    "_name": "2",
+                    "_parent": "66eeef8b2a166b0000300008",
+                    "_props": {
+                        "cellsH": 1,
+                        "cellsV": 4,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [],
+                                "Filter": [
+                                    "66eeef8b2a166b0000100008",
+                                    "66eeef8b2a166b0000100009",
+                                    "66eeef8b2a166b0000200009",
+                                    "66eeef8b2a166b0000200010",
+                                    "5485a8684bdc2da71d8b4567",
+                                    "543be5cb4bdc2deb348b4568",
+                                    "5e2af51086f7746d3f3c3402",
+                                    "5656eb674bdc2d35148b457c",
+                                    "5ede474b0c226a66f5402622",
+                                    "5ede475b549eed7c6d5c18fb",
+                                    "5ede4739e0350d05467f73e8",
+                                    "5f0c892565703e5c461894e9",
+                                    "5ede47405b097655935d7d16",
+                                    "5ede475339ee016e8c534742",
+                                    "5ede47641cf3836a88318df1",
+                                    "543be6564bdc2df4348b4568",
+                                    "57864c8c245977548867e7f1",
+                                    "543be5664bdc2dd4348b4569",
+                                    "543be6674bdc2df1348b4569",
+                                    "5c99f98d86f7745c314214b3",
+                                    "543be5dd4bdc2deb348b4569",
+                                    "5447bedf4bdc2d87278b4568",
+                                    "5447e0e74bdc2d3c308b4567",
+                                    "5447bee84bdc2dc3278b4569",
+                                    "5795f317245977243854e041"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "6656741458ffda3ac0683003",
+                    "_name": "3",
+                    "_parent": "66eeef8b2a166b0000300008",
+                    "_props": {
+                        "cellsH": 1,
+                        "cellsV": 4,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "66eeef8b2a166b0000100008",
+                                    "66eeef8b2a166b0000100009",
+                                    "66eeef8b2a166b0000200009",
+                                    "66eeef8b2a166b0000200010"
+                                ],
+                                "Filter": [
+                                    "5485a8684bdc2da71d8b4567",
+                                    "543be5cb4bdc2deb348b4568",
+                                    "5e2af51086f7746d3f3c3402",
+                                    "5656eb674bdc2d35148b457c",
+                                    "5ede474b0c226a66f5402622",
+                                    "5ede475b549eed7c6d5c18fb",
+                                    "5ede4739e0350d05467f73e8",
+                                    "5f0c892565703e5c461894e9",
+                                    "5ede47405b097655935d7d16",
+                                    "5ede475339ee016e8c534742",
+                                    "5ede47641cf3836a88318df1",
+                                    "543be6564bdc2df4348b4568",
+                                    "57864c8c245977548867e7f1",
+                                    "543be5664bdc2dd4348b4569",
+                                    "543be6674bdc2df1348b4569",
+                                    "5c99f98d86f7745c314214b3",
+                                    "543be5dd4bdc2deb348b4569",
+                                    "5447bedf4bdc2d87278b4568",
+                                    "5447e0e74bdc2d3c308b4567",
+                                    "5447bee84bdc2dc3278b4569",
+                                    "5795f317245977243854e041"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "6656741458ffda3ac0683004",
+                    "_name": "4",
+                    "_parent": "66eeef8b2a166b0000300008",
+                    "_props": {
+                        "cellsH": 1,
+                        "cellsV": 4,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "66eeef8b2a166b0000100008",
+                                    "66eeef8b2a166b0000100009",
+                                    "66eeef8b2a166b0000200009",
+                                    "66eeef8b2a166b0000200010"
+                                ],
+                                "Filter": [
+                                    "5485a8684bdc2da71d8b4567",
+                                    "543be5cb4bdc2deb348b4568",
+                                    "5e2af51086f7746d3f3c3402",
+                                    "5656eb674bdc2d35148b457c",
+                                    "5ede474b0c226a66f5402622",
+                                    "5ede475b549eed7c6d5c18fb",
+                                    "5ede4739e0350d05467f73e8",
+                                    "5f0c892565703e5c461894e9",
+                                    "5ede47405b097655935d7d16",
+                                    "5ede475339ee016e8c534742",
+                                    "5ede47641cf3836a88318df1",
+                                    "543be6564bdc2df4348b4568",
+                                    "57864c8c245977548867e7f1",
+                                    "543be5664bdc2dd4348b4569",
+                                    "543be6674bdc2df1348b4569",
+                                    "5c99f98d86f7745c314214b3",
+                                    "543be5dd4bdc2deb348b4569",
+                                    "5447bedf4bdc2d87278b4568",
+                                    "5447e0e74bdc2d3c308b4567",
+                                    "5447bee84bdc2dc3278b4569",
+                                    "5795f317245977243854e041"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "\"The Cabinet\" Secure Container",
+                "shortName": "Cabinet SC",
+                "description": "A sealed miracle."
+            }
+        },
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [],
+        "fleaPriceRoubles": 150000,
+        "handbookPriceRoubles": 150000,
+        "addtoTraders": false,
+        "addtoBots": false,
+        "addtoStaticLootContainers": false,
+        "staticLootContainers": [],
+        "masteries": false,
+        "addWeaponPreset": false,
+        "weaponPresets": [],
+        "masterySections": null
+    },
+    "66eeef8b2a166b0000300009": {
+        "itemTplToClone": "5c093e3486f77430cb02e593",
+        "parentId": "5795f317245977243854e041",
+        "handbookParentId": "5b5f6fa186f77409407a7eb7",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "BackgroundColor": "violet",
+            "Weight": -15,
+            "Grids": [
+                {
+                    "_id": "5c093e3486f77430cb02e001",
+                    "_name": "main",
+                    "_parent": "66eeef8b2a166b0000100009",
+                    "_props": {
+                        "cellsH": 4,
+                        "cellsV": 5,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "66eeef8b2a166b0000100008",
+                                    "66eeef8b2a166b0000100009"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "\"The Compartment\" Spatial Compression Unit",
+                "shortName": "Compartment",
+                "description": "A carry system designed for Executors."
+            }
+        },
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [],
+        "fleaPriceRoubles": 300000,
+        "handbookPriceRoubles": 300000,
+        "addtoTraders": false,
+        "addtoBots": false,
+        "addtoStaticLootContainers": false,
+        "staticLootContainers": [],
+        "masteries": false,
+        "addWeaponPreset": false,
+        "weaponPresets": [],
+        "masterySections": null
+    },
+    "66eeef8b2a166b0000300010": {
+        "itemTplToClone": "59fc48e086f77463b1118392",
+        "parentId": "55818af64bdc2d5b648b4570",
+        "handbookParentId": "5b5f71de86f774093f2ecf13",
+        "overrideProperties": {
+            "BackgroundColor": "violet",
+            "ConflictingItems": [],
+            "DiscardLimit": -1,
+            "Accuracy": 0.05,
+            "Ergonomics": 10,
+            "Velocity": 0,
+            "Recoil": -25,
+            "HeatFactor": 0.95,
+            "DurabilityBurnModificator": 0.8,
+            "ExaminedByDefault": true,
+            "ExtraSizeDown": 0,
+            "ExtraSizeForceAdd": false,
+            "ExtraSizeLeft": 0,
+            "ExtraSizeRight": 0,
+            "ExtraSizeUp": 0,
+            "Height": 1,
+            "Weight": 0.05,
+            "Width": 1
+        },
+        "locales": {
+            "en": {
+                "name": "\"The Bough\" Foregrip",
+                "shortName": "Bough",
+                "description": "A structural extension designed to transfer recoil through unnatural leverage paths."
+            }
+        },
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [],
+        "fleaPriceRoubles": 70000,
+        "handbookPriceRoubles": 70000,
+        "addtoTraders": false,
+        "addtoBots": false,
+        "addtoStaticLootContainers": false,
+        "staticLootContainers": [],
+        "masteries": false,
+        "addWeaponPreset": false,
+        "weaponPresets": [],
+        "masterySections": null
+    },
+    "66eeef8b2a166b0000300011": {
+        "itemTplToClone": "6272370ee4013c5d7e31f418",
+        "parentId": "55818b164bdc2ddc698b456c",
+        "handbookParentId": "5b5f737886f774093e6cb4fb",
+        "overrideProperties": {
+            "BackgroundColor": "violet",
+            "ConflictingItems": [],
+            "DiscardLimit": -1,
+            "Accuracy": 0.05,
+            "Ergonomics": 25,
+            "Velocity": 0,
+            "Recoil": -5,
+            "HeatFactor": 0.95,
+            "DurabilityBurnModificator": 0.95,
+            "ExaminedByDefault": true,
+            "ExtraSizeDown": 0,
+            "ExtraSizeForceAdd": false,
+            "ExtraSizeLeft": 0,
+            "ExtraSizeRight": 0,
+            "ExtraSizeUp": 0,
+            "Height": 1,
+            "Weight": 0.05,
+            "Width": 1
+        },
+        "locales": {
+            "en": {
+                "name": "\"The Stretch\" Tactical equipment",
+                "shortName": "Stretch",
+                "description": "A tactical interface that extends operator control beyond physiological limits."
+            }
+        },
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [],
+        "fleaPriceRoubles": 70000,
+        "handbookPriceRoubles": 70000,
+        "addtoTraders": false,
+        "addtoBots": false,
+        "addtoStaticLootContainers": false,
+        "staticLootContainers": [],
+        "masteries": false,
+        "addWeaponPreset": false,
+        "weaponPresets": [],
+        "masterySections": null
+    }
+}

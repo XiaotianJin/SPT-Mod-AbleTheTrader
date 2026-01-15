@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <RootNamespace>xtst.ableTheTrader</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <OutputType>Library</OutputType>
+    <Version>0.0.1</Version>
+    <!-- The two lines below will set the output path for the binaries -->
+    <OutputPath>bin\$(Configuration)\$(ProjectName)\$(AssemblyName)\</OutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <Authors>XTST</Authors>
+    <Company>XTST</Company>
+    <RunAnalyzersDuringBuild>False</RunAnalyzersDuringBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="db\CustomBuffs\project_laudation_buffs.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="SPTarkov.Common" Version="4.0.5" />
+    <PackageReference Include="SPTarkov.DI" Version="4.0.5" />
+    <PackageReference Include="SPTarkov.Server.Core" Version="4.0.5" />
+    <PackageReference Include="WTT-ServerCommonLib" Version="2.0.11" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="db\CustomQuestZones\" />
+    <Folder Include="db\CustomQuests\" />
+    <Folder Include="db\CustomBuffs\" />
+    <Folder Include="db\CustomLocales\" />
+    <Folder Include="db\CustomProfiles\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="db\CustomBuffs\project_laudation_buffs.json" />
+    <None Include="db\CustomBuffs\project_laudation_buffs.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="db\Able.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+</Project>

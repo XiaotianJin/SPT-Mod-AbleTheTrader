@@ -3,19 +3,20 @@ using SPTarkov.Server.Core.DI;
 using SPTarkov.Server.Core.Models.Common;
 using SPTarkov.Server.Core.Models.Eft.Common.Tables;
 using SPTarkov.Server.Core.Models.Spt.Config;
+using SPTarkov.Server.Core.Models.Utils;
 using SPTarkov.Server.Core.Services;
 using SPTarkov.Server.Core.Utils.Cloners;
 
-namespace _13._1AddTraderWithDynamicAssorts
+namespace xtst.ableTheTrader
 {
-    /// <summary>
-    /// We inject this class into 'AddTraderWithDynamicAssorts' to help us with adding the new trader into the server
-    /// </summary>
     [Injectable(TypePriority = OnLoadOrder.PostDBModLoader + 1)]
-    public class AddCustomTraderHelper(
-        ICloner cloner,
-        DatabaseService databaseService)
+    public class AbleTheTraderHelper(
+           ISptLogger<AbleTheTraderHelper> logger,
+           ICloner cloner,
+           DatabaseService databaseService,
+           LocaleService localeService)
     {
+
         /// <summary>
         /// Add the traders update time for when their offers refresh
         /// </summary>
@@ -56,6 +57,7 @@ namespace _13._1AddTraderWithDynamicAssorts
                 Base = cloner.Clone(traderDetailsToAdd),
                 QuestAssort = new() // quest assort is empty as trader has no assorts unlocked by quests
                 {
+                    // We create 3 empty arrays, one for each of the main statuses that are possible
                     { "Started", new() },
                     { "Success", new() },
                     { "Fail", new() }
@@ -102,115 +104,21 @@ namespace _13._1AddTraderWithDynamicAssorts
         }
 
         /// <summary>
-        /// Create a complete weapon from scratch.
-        /// Weapons start with a 'root' item
-        /// They there have various 'child' items that attach off of the root, the discord mod support can help direct you on how to figure our what you need
+        /// Overwrite the desired traders assorts with the ones provided
         /// </summary>
-        /// <returns>A complete glock</returns>
-        public List<Item> CreateGlock()
+        /// <param name="traderId">Trader to override assorts of</param>
+        /// <param name="newAssorts">new assorts we want to add</param>
+        public void OverwriteTraderAssort(string traderId, TraderAssort newAssorts)
         {
-            // Create an array ready to hold the glock and all its mods
-            var glock = new List<Item>();
-
-            // Add the base (root) first
-            glock.Add(new Item
-            { // Add the base weapon first
-                Id =
-                NewItemIds.GLOCK_BASE, // Ids matter, Ids MUST be unique for every item
-                Template = new MongoId("5a7ae0c351dfba0017554310")
-                , // This is the weapons tpl, found on: https://db.sp-tarkov.com/search
-            });
-
-            // Add barrel
-            glock.Add(new Item
+            if (!databaseService.GetTables().Traders.TryGetValue(traderId, out var traderToEdit))
             {
-                Id =
-                NewItemIds.GLOCK_BARREL,
-                Template = new MongoId("5a6b60158dc32e000a31138b"),
-                ParentId =
-                NewItemIds.GLOCK_BASE, // This is a sub item, you need to define its parent it is attached to / inserted into
-                SlotId =
-                "mod_barrel", // Required for mods, you need to define what 'slot' the mod will fill on the weapon
-            });
+                logger.Warning($"Unable to update assorts for trader: {traderId}, they couldn't be found on the server");
 
-            // Add receiver
-            glock.Add(new Item
-            {
-                Id =
-                NewItemIds.GLOCK_RECIEVER,
-                Template = new MongoId("5a9685b1a2750c0032157104"),
-                ParentId =
-                NewItemIds.GLOCK_BASE,
-                SlotId =
-                "mod_reciever",
-            });
+                return;
+            }
 
-            // Add compensator
-            glock.Add(new Item
-            {
-                Id =
-                NewItemIds.GLOCK_COMPENSATOR,
-                Template =
-                new MongoId("5a7b32a2e899ef00135e345a"),
-                ParentId =
-                NewItemIds.GLOCK_RECIEVER, // The parent of this mod is the receiver NOT weapon, be careful to get the correct parent
-                SlotId =
-                "mod_muzzle",
-            });
-
-            // Add Pistol grip
-            glock.Add(new Item
-            {
-                Id =
-                NewItemIds.GLOCK_PISTOL_GRIP,
-                Template =
-                new MongoId("5a7b4960e899ef197b331a2d"),
-                ParentId =
-                NewItemIds.GLOCK_BASE,
-                SlotId =
-                "mod_pistol_grip",
-            });
-
-            // Add front sight
-            glock.Add(new Item
-            {
-                Id =
-                NewItemIds.GLOCK_FRONT_SIGHT,
-                Template =
-                new MongoId("5a6f5d528dc32e00094b97d9"),
-                ParentId =
-                NewItemIds.GLOCK_RECIEVER,
-                SlotId =
-                "mod_sight_rear",
-            });
-
-            // Add rear sight
-            glock.Add(new Item
-            {
-                Id =
-                NewItemIds.GLOCK_REAR_SIGHT,
-                Template =
-                new MongoId("5a6f58f68dc32e000a311390"),
-                ParentId =
-                NewItemIds.GLOCK_RECIEVER,
-                SlotId =
-                "mod_sight_front",
-            });
-
-            // Add magazine
-            glock.Add(new Item
-            {
-                Id =
-                NewItemIds.GLOCK_MAGAZINE,
-                Template =
-                new MongoId("630769c4962d0247b029dc60"),
-                ParentId =
-                NewItemIds.GLOCK_BASE,
-                SlotId =
-                "mod_magazine",
-            });
-
-            return glock;
+            // Override the traders assorts with the ones we passed in
+            traderToEdit.Assort = newAssorts;
         }
     }
 }

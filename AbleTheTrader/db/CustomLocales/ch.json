@@ -1,0 +1,40 @@
+{
+    "66eeef8b2a166b0000100001 Name": "正典手术包",
+    "66eeef8b2a166b0000100001 ShortName": "正典手术",
+    "66eeef8b2a166b0000100001 Description": "基于标准化创伤处理流程优化的野战手术工具。",
+
+    "66eeef8b2a166b0000100002 Name": "正典医疗包",
+    "66eeef8b2a166b0000100002 ShortName": "正典医疗",
+    "66eeef8b2a166b0000100002 Description": "完全遵循既有医学边界的综合医疗方案。",
+
+    "66eeef8b2a166b0000100003 Name": "C-04 镇痛剂",
+    "66eeef8b2a166b0000100003 ShortName": "C-04",
+    "66eeef8b2a166b0000100003 Description": "在不切断感知的前提下抑制疼痛反应。",
+
+    "66eeef8b2a166b0000100004 Name": "C-07 兴奋剂",
+    "66eeef8b2a166b0000100004 ShortName": "C-07",
+    "66eeef8b2a166b0000100004 Description": "在短时间内提高身体输出，超出可持续阈值。",
+
+    "66eeef8b2a166b0000100005 Name": "C-12 紧急协议针",
+    "66eeef8b2a166b0000100005 ShortName": "C-12",
+    "66eeef8b2a166b0000100005 Description": "用于最后手段的人体机能稳定措施。",
+
+    "66eeef8b2a166b0000100006 Name": "正典配给饮品",
+    "66eeef8b2a166b0000100006 ShortName": "正典饮",
+    "66eeef8b2a166b0000100006 Description": "圣仪系统公司的制式配给饮品，旨在高效恢复能量和水分。",
+
+    "66eeef8b2a166b0000100007 Name": "正典防护终端·原型",
+    "66eeef8b2a166b0000100007 ShortName": "CPT Mk.1",
+    "66eeef8b2a166b0000100007 Description": "“有总比没有好，至少技术路线是对的。”——摘自开发者笔记",
+
+    "66eeef8b2a166b0000100008 Name": "正典扩容安全箱",
+    "66eeef8b2a166b0000100008 ShortName": "正典箱",
+    "66eeef8b2a166b0000100008 Description": "圣仪系统公司制式安全箱的空间重构型号。在不改变外部尺寸的前提下，对内部结构进行了最小可行扩展。不创造奇迹，只保证可靠。",
+
+    "66eeef8b2a166b0000100009 Name": "正典安全箱扩容套件",
+    "66eeef8b2a166b0000100009 ShortName": "CEM",
+    "66eeef8b2a166b0000100009 Description": "用于验证空间嵌套理论的早期模块。体积有限，但方向正确。",
+
+    "my_custom_quest_001 name": "Custom Quest Name",
+    "my_custom_quest_001 description": "Quest description here"
+}
