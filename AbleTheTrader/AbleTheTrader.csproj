@@ -27,7 +27,6 @@
   <ItemGroup>
     <Folder Include="db\CustomQuestZones\" />
     <Folder Include="db\CustomQuests\" />
-    <Folder Include="db\CustomBuffs\" />
     <Folder Include="db\CustomLocales\" />
     <Folder Include="db\CustomProfiles\" />
   </ItemGroup>

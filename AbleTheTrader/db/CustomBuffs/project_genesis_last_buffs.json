@@ -1,0 +1,498 @@
+{
+    "xtst_able_genesis_last_second_genesis_buff": [
+        {
+            "AbsoluteValue": true,
+            "BuffType": "EnergyRate",
+            "Chance": 1,
+            "Delay": 3,
+            "Duration": 300,
+            "SkillName": "",
+            "Value": -0.1
+        },
+        {
+            "AbsoluteValue": true,
+            "BuffType": "HydrationRate",
+            "Chance": 1,
+            "Delay": 3,
+            "Duration": 300,
+            "SkillName": "",
+            "Value": -0.1
+        },
+        {
+            "AbsoluteValue": true,
+            "BuffType": "QuantumTunnelling",
+            "Chance": 1,
+            "Delay": 3,
+            "Duration": 3,
+            "SkillName": "",
+            "Value": 0
+        }
+    ],
+    "xtst_able_genesis_last_divine_shines_buff": [
+        {
+            "AbsoluteValue": true,
+            "BuffType": "EnergyRate",
+            "Chance": 1,
+            "Delay": 3,
+            "Duration": 120,
+            "SkillName": "",
+            "Value": 0.1
+        },
+        {
+            "AbsoluteValue": true,
+            "BuffType": "HydrationRate",
+            "Chance": 1,
+            "Delay": 3,
+            "Duration": 120,
+            "SkillName": "",
+            "Value": 0.1
+        },
+        {
+            "AbsoluteValue": true,
+            "BuffType": "HealthRate",
+            "Chance": 1,
+            "Delay": 0,
+            "Duration": 120,
+            "SkillName": "",
+            "Value": 3
+        }
+    ],
+    "xtst_able_genesis_last_Elysium_buff": [
+        {
+            "AbsoluteValue": true,
+            "BuffType": "QuantumTunnelling",
+            "Chance": 1,
+            "Delay": 0,
+            "Duration": 3,
+            "SkillName": "",
+            "Value": 0
+        },
+        {
+            "AbsoluteValue": true,
+            "BuffType": "HandsTremor",
+            "Chance": 1,
+            "Delay": 0,
+            "Duration": 3,
+            "SkillName": "",
+            "Value": 0
+        },
+        {
+            "AbsoluteValue": true,
+            "BuffType": "QuantumTunnelling",
+            "Chance": 1,
+            "Delay": 600,
+            "Duration": 3,
+            "SkillName": "",
+            "Value": 0
+        },
+        {
+            "AbsoluteValue": true,
+            "BuffType": "RemoveAllBloodLosses",
+            "Chance": 1,
+            "Delay": 5,
+            "Duration": 600,
+            "SkillName": "",
+            "Value": 0
+        },
+        {
+            "AbsoluteValue": true,
+            "BuffType": "EnergyRate",
+            "Chance": 1,
+            "Delay": 0,
+            "Duration": 600,
+            "SkillName": "",
+            "Value": -0.06
+        },
+        {
+            "AbsoluteValue": true,
+            "BuffType": "HydrationRate",
+            "Chance": 1,
+            "Delay": 0,
+            "Duration": 600,
+            "SkillName": "",
+            "Value": -0.06
+        },
+        {
+            "AbsoluteValue": true,
+            "BuffType": "HealthRate",
+            "Chance": 1,
+            "Delay": 0,
+            "Duration": 120,
+            "SkillName": "",
+            "Value": 0.7
+        }
+    ],
+    "xtst_able_genesis_last_Sisyphus_buff": [
+        {
+            "AbsoluteValue": true,
+            "BuffType": "QuantumTunnelling",
+            "Chance": 1,
+            "Delay": 0,
+            "Duration": 1,
+            "SkillName": "",
+            "Value": 0
+        },
+        {
+            "AbsoluteValue": true,
+            "BuffType": "QuantumTunnelling",
+            "Chance": 1,
+            "Delay": 600,
+            "Duration": 1,
+            "SkillName": "",
+            "Value": 0
+        },
+        {
+            "AbsoluteValue": true,
+            "BuffType": "HandsTremor",
+            "Chance": 1,
+            "Delay": 0,
+            "Duration": 1,
+            "SkillName": "",
+            "Value": 0
+        },
+        {
+            "AbsoluteValue": false,
+            "AppliesTo": [],
+            "BuffType": "HeavyBleeding",
+            "Chance": 0.1,
+            "Delay": 600,
+            "Duration": 0,
+            "SkillName": "",
+            "Value": 0
+        },
+        {
+            "AbsoluteValue": false,
+            "AppliesTo": [],
+            "BuffType": "LightBleeding",
+            "Chance": 0.3,
+            "Delay": 600,
+            "Duration": 0,
+            "SkillName": "",
+            "Value": 0
+        },
+        {
+            "AbsoluteValue": true,
+            "BuffType": "MaxStamina",
+            "Chance": 1,
+            "Delay": 0,
+            "Duration": 600,
+            "SkillName": "",
+            "Value": 100
+        },
+        {
+            "AbsoluteValue": true,
+            "BuffType": "StaminaRate",
+            "Chance": 1,
+            "Delay": 0,
+            "Duration": 600,
+            "SkillName": "",
+            "Value": 2
+        },
+        {
+            "AbsoluteValue": false,
+            "BuffType": "WeightLimit",
+            "Chance": 1,
+            "Delay": 0,
+            "Duration": 600,
+            "SkillName": "",
+            "Value": 1.25
+        },
+        {
+            "AbsoluteValue": true,
+            "BuffType": "EnergyRate",
+            "Chance": 1,
+            "Delay": 0,
+            "Duration": 600,
+            "SkillName": "",
+            "Value": -0.05
+        },
+        {
+            "AbsoluteValue": true,
+            "BuffType": "HydrationRate",
+            "Chance": 1,
+            "Delay": 0,
+            "Duration": 600,
+            "SkillName": "",
+            "Value": -0.05
+        },
+        {
+            "AbsoluteValue": true,
+            "BuffType": "SkillRate",
+            "Chance": 1,
+            "Delay": 0,
+            "Duration": 600,
+            "SkillName": "Endurance",
+            "Value": 51
+        },
+        {
+            "AbsoluteValue": true,
+            "BuffType": "SkillRate",
+            "Chance": 1,
+            "Delay": 0,
+            "Duration": 600,
+            "SkillName": "Strength",
+            "Value": 51
+        },
+        {
+            "AbsoluteValue": true,
+            "BuffType": "SkillRate",
+            "Chance": 1,
+            "Delay": 0,
+            "Duration": 600,
+            "SkillName": "RecoilControl",
+            "Value": 51
+        },
+        {
+            "AbsoluteValue": true,
+            "BuffType": "SkillRate",
+            "Chance": 1,
+            "Delay": 0,
+            "Duration": 600,
+            "SkillName": "StressResistance",
+            "Value": 51
+        },
+        {
+            "AbsoluteValue": true,
+            "BuffType": "SkillRate",
+            "Chance": 1,
+            "Delay": 0,
+            "Duration": 600,
+            "SkillName": "Metabolism",
+            "Value": 51
+        },
+        {
+            "AbsoluteValue": true,
+            "BuffType": "SkillRate",
+            "Chance": 1,
+            "Delay": 0,
+            "Duration": 600,
+            "SkillName": "Health",
+            "Value": 51
+        },
+        {
+            "AbsoluteValue": true,
+            "BuffType": "SkillRate",
+            "Chance": 1,
+            "Delay": 0,
+            "Duration": 600,
+            "SkillName": "Vitality",
+            "Value": 51
+        },
+        {
+            "AbsoluteValue": true,
+            "BuffType": "SkillRate",
+            "Chance": 1,
+            "Delay": 0,
+            "Duration": 600,
+            "SkillName": "Attention",
+            "Value": 51
+        },
+        {
+            "AbsoluteValue": true,
+            "BuffType": "SkillRate",
+            "Chance": 1,
+            "Delay": 0,
+            "Duration": 600,
+            "SkillName": "Perception",
+            "Value": 51
+        },
+        {
+            "AbsoluteValue": true,
+            "BuffType": "SkillRate",
+            "Chance": 1,
+            "Delay": 0,
+            "Duration": 600,
+            "SkillName": "Charisma",
+            "Value": 51
+        },
+        {
+            "AbsoluteValue": true,
+            "BuffType": "SkillRate",
+            "Chance": 1,
+            "Delay": 0,
+            "Duration": 600,
+            "SkillName": "Memory",
+            "Value": 51
+        },
+        {
+            "AbsoluteValue": true,
+            "BuffType": "SkillRate",
+            "Chance": 1,
+            "Delay": 0,
+            "Duration": 600,
+            "SkillName": "Intellect",
+            "Value": 51
+        },
+        {
+            "AbsoluteValue": true,
+            "BuffType": "SkillRate",
+            "Chance": 1,
+            "Delay": 0,
+            "Duration": 600,
+            "SkillName": "MagDrills",
+            "Value": 51
+        },
+        {
+            "AbsoluteValue": true,
+            "BuffType": "SkillRate",
+            "Chance": 1,
+            "Delay": 0,
+            "Duration": 600,
+            "SkillName": "Immunity",
+            "Value": 51
+        }
+    ],
+    "xtst_able_genesis_last_last_dance_buff": [
+        {
+            "AbsoluteValue": true,
+            "BuffType": "QuantumTunnelling",
+            "Chance": 1,
+            "Delay": 0,
+            "Duration": 1,
+            "SkillName": "",
+            "Value": 0
+        },
+
+        {
+            "AbsoluteValue": true,
+            "BuffType": "MaxStamina",
+            "Chance": 1,
+            "Delay": 1,
+            "Duration": 120,
+            "SkillName": "",
+            "Value": 100
+        },
+        {
+            "AbsoluteValue": true,
+            "BuffType": "StaminaRate",
+            "Chance": 1,
+            "Delay": 1,
+            "Duration": 120,
+            "SkillName": "",
+            "Value": 3
+        },
+        {
+            "AbsoluteValue": false,
+            "BuffType": "DamageModifier",
+            "Chance": 1,
+            "Delay": 1,
+            "Duration": 120,
+            "SkillName": "",
+            "Value": -0.2
+        },
+        {
+            "AbsoluteValue": true,
+            "BuffType": "EnergyRate",
+            "Chance": 1,
+            "Delay": 1,
+            "Duration": 120,
+            "SkillName": "",
+            "Value": 0.3
+        },
+        {
+            "AbsoluteValue": true,
+            "BuffType": "HydrationRate",
+            "Chance": 1,
+            "Delay": 1,
+            "Duration": 120,
+            "SkillName": "",
+            "Value": 0.3
+        },
+        {
+            "AbsoluteValue": true,
+            "BuffType": "HealthRate",
+            "Chance": 1,
+            "Delay": 1,
+            "Duration": 120,
+            "SkillName": "",
+            "Value": 10
+        },
+
+        {
+            "AbsoluteValue": true,
+            "BuffType": "QuantumTunnelling",
+            "Chance": 1,
+            "Delay": 120,
+            "Duration": 1,
+            "SkillName": "",
+            "Value": 0
+        },
+        {
+            "AbsoluteValue": true,
+            "BuffType": "EnergyRate",
+            "Chance": 1,
+            "Delay": 120,
+            "Duration": 300,
+            "SkillName": "",
+            "Value": -0.2
+        },
+        {
+            "AbsoluteValue": true,
+            "BuffType": "HydrationRate",
+            "Chance": 1,
+            "Delay": 120,
+            "Duration": 300,
+            "SkillName": "",
+            "Value": -0.2
+        },
+        {
+            "AbsoluteValue": true,
+            "BuffType": "HealthRate",
+            "Chance": 1,
+            "Delay": 120,
+            "Duration": 300,
+            "SkillName": "",
+            "Value": -2
+        },
+
+        {
+            "AbsoluteValue": true,
+            "BuffType": "QuantumTunnelling",
+            "Chance": 1,
+            "Delay": 180,
+            "Duration": 1,
+            "SkillName": "",
+            "Value": 0
+        },
+        {
+            "AbsoluteValue": false,
+            "AppliesTo": [],
+            "BuffType": "HeavyBleeding",
+            "Chance": 0.5,
+            "Delay": 180,
+            "Duration": 0,
+            "SkillName": "",
+            "Value": 0
+        },
+        {
+            "AbsoluteValue": false,
+            "AppliesTo": [],
+            "BuffType": "LightBleeding",
+            "Chance": 0.6,
+            "Delay": 180,
+            "Duration": 0,
+            "SkillName": "",
+            "Value": 0
+        }
+    ],
+    "xtst_able_genesis_last_bread_and_wine_buff": [
+        {
+            "AbsoluteValue": true,
+            "BuffType": "EnergyRate",
+            "Chance": 1,
+            "Delay": 0,
+            "Duration": 600,
+            "SkillName": "",
+            "Value": 0.2
+        },
+        {
+            "AbsoluteValue": true,
+            "BuffType": "HydrationRate",
+            "Chance": 1,
+            "Delay": 0,
+            "Duration": 600,
+            "SkillName": "",
+            "Value": 0.2
+        }
+    ]
+}

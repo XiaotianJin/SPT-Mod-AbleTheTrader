@@ -2,6 +2,182 @@
     "66eeef8b2a166b0000100001 Name": "Canon Surgical Kit",
     "66eeef8b2a166b0000100001 ShortName": "CSK",
     "66eeef8b2a166b0000100001 Description": "Optimized surgical procedures based on standardized trauma doctrine.",
-    "my_custom_quest_001 name": "Custom Quest Name",
-    "my_custom_quest_001 description": "Quest description here"
+
+    "66eeef8b2a166b0000100002 Name": "Canon Medical Pack",
+    "66eeef8b2a166b0000100002 ShortName": "CMP",
+    "66eeef8b2a166b0000100002 Description": "A comprehensive medical solution built strictly within accepted limits.",
+
+    "66eeef8b2a166b0000100003 Name": "C-04 Analgesic",
+    "66eeef8b2a166b0000100003 ShortName": "C-04",
+    "66eeef8b2a166b0000100003 Description": "Reduces pain response without suppressing sensory feedback.",
+
+    "66eeef8b2a166b0000100004 Name": "C-07 Stimulant",
+    "66eeef8b2a166b0000100004 ShortName": "C-07",
+    "66eeef8b2a166b0000100004 Description": "Temporarily elevates physical output beyond sustainable levels.",
+
+    "66eeef8b2a166b0000100005 Name": "C-12 Emergency Protocol",
+    "66eeef8b2a166b0000100005 ShortName": "C-12",
+    "66eeef8b2a166b0000100005 Description": "Intended for last-resort physiological stabilization.",
+
+    "66eeef8b2a166b0000100006 Name": "Canon Ration Drink",
+    "66eeef8b2a166b0000100006 ShortName": "CRD",
+    "66eeef8b2a166b0000100006 Description": "A standardized ration beverage issued by Liturgy Systems, designed for efficient restoration of energy and hydration.",
+
+    "66eeef8b2a166b0000100007 Name": "Canon Protective Terminal Mk.I",
+    "66eeef8b2a166b0000100007 ShortName": "CPT Mk.I",
+    "66eeef8b2a166b0000100007 Description": "An early-stage personal protection unit. Minimal coverage, but the underlying technical approach proved viable.",
+
+    "66eeef8b2a166b0000100008 Name": "Canon Expanded Secure Container",
+    "66eeef8b2a166b0000100008 ShortName": "Canon SC",
+    "66eeef8b2a166b0000100008 Description": "A standardized secure container with conservative internal reconfiguration. No miracles promised. Reliability ensured.",
+
+    "66eeef8b2a166b0000100009 Name": "Canon Secure Container Expansion Module",
+    "66eeef8b2a166b0000100009 ShortName": "CEM",
+    "66eeef8b2a166b0000100009 Description": "An early modular expansion unit designed to validate spatial nesting theory. Limited in scale, correct in direction.",
+
+
+
+    "66eeef8b2a166b0000200001 Name": "Laudation Injection: Tremor",
+    "66eeef8b2a166b0000200001 ShortName": "Tremor",
+    "66eeef8b2a166b0000200001 Description": "Induces controlled neuromuscular instability. Required for specific protocol compliance.",
+
+    "66eeef8b2a166b0000200002 Name": "Laudation Injection: Rupture",
+    "66eeef8b2a166b0000200002 ShortName": "Rupture",
+    "66eeef8b2a166b0000200002 Description": "Simulates critical vascular failure without external trauma.",
+
+    "66eeef8b2a166b0000200003 Name": "Laudation Injection: Dolor",
+    "66eeef8b2a166b0000200003 ShortName": "Dolor",
+    "66eeef8b2a166b0000200003 Description": "Pain is induced, not treated.",
+
+    "66eeef8b2a166b0000200004 Name": "Laudation Injection: Contamination",
+    "66eeef8b2a166b0000200004 ShortName": "Contamination",
+    "66eeef8b2a166b0000200004 Description": "Introduces controlled systemic disruption. Clean inputs rarely produce meaningful results.",
+
+    "66eeef8b2a166b0000200005 Name": "Laudation Surgical Kit",
+    "66eeef8b2a166b0000200005 ShortName": "LSK",
+    "66eeef8b2a166b0000200005 Description": "Procedures adjusted to compensate for ritualized physiological stress.",
+
+    "66eeef8b2a166b0000200006 Name": "Laudation Medical Toolkit",
+    "66eeef8b2a166b0000200006 ShortName": "LMT",
+    "66eeef8b2a166b0000200006 Description": "A medical toolkit assembled to accommodate — not prevent — common battlefield injuries.",
+
+    "66eeef8b2a166b0000200007 Name": "Laudation Sustenance",
+    "66eeef8b2a166b0000200007 ShortName": "LS",
+    "66eeef8b2a166b0000200007 Description": "Sustenance reformulated to be consumed under fire. Enjoyment is considered optional.",
+
+    "66eeef8b2a166b0000200008 Name": "Laudation Protective Terminal Mk.II",
+    "66eeef8b2a166b0000200008 ShortName": "LPT Mk.II",
+    "66eeef8b2a166b0000200008 Description": "“Significant improvement claimed. Results remain within expectations.” —Internal development note",
+
+    "66eeef8b2a166b0000200009 Name": "Laudation Secure Container",
+    "66eeef8b2a166b0000200009 ShortName": "Laudation SC",
+    "66eeef8b2a166b0000200009 Description": "Each additional compartment is an act of praise toward the limits of carry capacity. Space, given purpose.",
+
+    "66eeef8b2a166b0000200010 Name": "Laudation Expansion Module",
+    "66eeef8b2a166b0000200010 ShortName": "LEM",
+    "66eeef8b2a166b0000200010 Description": "A protocol-certified expansion module. Weight is no longer a penalty — it is part of the rite.",
+
+
+
+    "66eeef8b2a166b0000300001 Name": "\"The Mender\" Nano Surgery System",
+    "66eeef8b2a166b0000300001 ShortName": "The Mender",
+    "66eeef8b2a166b0000300001 Description": "Automated micro-scale repair prioritizing speed over preservation. Downtime is treated as failure.",
+
+    "66eeef8b2a166b0000300002 Name": "\"The Sustainer\" Combat Trauma Kit",
+    "66eeef8b2a166b0000300002 ShortName": "The Sustainer",
+    "66eeef8b2a166b0000300002 Description": "Designed to keep the subject operational. Long-term outcomes are outside mission parameters.",
+
+    "66eeef8b2a166b0000300003 Name": "\"The Veil\" Central Nervous System Inhibitor",
+    "66eeef8b2a166b0000300003 ShortName": "The Veil",
+    "66eeef8b2a166b0000300003 Description": "Suppresses higher neural functions to ensure continued action. What is lost is considered acceptable.",
+
+    "66eeef8b2a166b0000300004 Name": "\"The Burden\" Stimulants",
+    "66eeef8b2a166b0000300004 ShortName": "The Burden",
+    "66eeef8b2a166b0000300004 Description": "Forces continued movement under extreme load. Stopping is not an evaluated option.",
+
+    "66eeef8b2a166b0000300005 Name": "\"The Mandate\" Emergency Protocol",
+    "66eeef8b2a166b0000300005 ShortName": "The Mandate",
+    "66eeef8b2a166b0000300005 Description": "Overrides all restraint systems. Compliance is mandatory.",
+
+    "66eeef8b2a166b0000300006 Name": "\"The Provision\" Energy Drink",
+    "66eeef8b2a166b0000300006 ShortName": "The Provision",
+    "66eeef8b2a166b0000300006 Description": "A dense nutritional supply issued without ceremony. Consumption is advised before what comes next.",
+
+    "66eeef8b2a166b0000300007 Name": "Executor Protective Terminal",
+    "66eeef8b2a166b0000300007 ShortName": "EPT",
+    "66eeef8b2a166b0000300007 Description": "Finalized personal protection system integrated with Executor protocols.",
+
+    "66eeef8b2a166b0000300008 Name": "\"The Cabinet\" Secure Container",
+    "66eeef8b2a166b0000300008 ShortName": "The Cabinet",
+    "66eeef8b2a166b0000300008 Description": "The ultimate destination for all the treasures collected by the traveler as he wanders the world. This is not just a place to store things, but a place to make decisions",
+
+    "66eeef8b2a166b0000300009 Name": "\"The Compartment\" Spatial Compression Unit",
+    "66eeef8b2a166b0000300009 ShortName": "The Compartment",
+    "66eeef8b2a166b0000300009 Description": "A carry system designed for Executors. Space obeys. Structure is no longer explained.",
+
+    "66eeef8b2a166b0000300010 Name": "\"The Bough\" Vertical Grip",
+    "66eeef8b2a166b0000300010 ShortName": "The Bough",
+    "66eeef8b2a166b0000300010 Description": "A structural extension designed to transfer recoil through unnatural leverage paths. The weapon no longer resists — it bends.",
+
+    "66eeef8b2a166b0000300011 Name": "\"The Stretch\" Tactical Interface",
+    "66eeef8b2a166b0000300011 ShortName": "The Stretch",
+    "66eeef8b2a166b0000300011 Description": "A tactical interface that extends operator control beyond physiological limits. Precision improves. Fatigue accumulates elsewhere.",
+
+
+
+    "66eeef8b2a166b0000400001 Name": "\"Second Genesis\" Limb Repair Protocol",
+    "66eeef8b2a166b0000400001 ShortName": "Second Genesis",
+    "66eeef8b2a166b0000400001 Description": "Repairs fractures and restores ruined limbs. Flesh rewritten, against every rule it should obey.",
+
+    "66eeef8b2a166b0000400002 Name": "\"Divine Touch\" Comprehensive Recovery Set",
+    "66eeef8b2a166b0000400002 ShortName": "Divine Touch",
+    "66eeef8b2a166b0000400002 Description": "Not a medicine, but an intervention. Rapidly restores vitality as if a higher power briefly took notice.",
+
+    "66eeef8b2a166b0000400003 Name": "\"Divine Shines\" Hematopoietic Function Activation Protocol",
+    "66eeef8b2a166b0000400003 ShortName": "Divine Shines",
+    "66eeef8b2a166b0000400003 Description": "It feels as comfortable as the sunshine melting the snow in spring, shining upon one's body.",
+
+    "66eeef8b2a166b0000400004 Name": "\"Elysium\" Negative Sensory Masking Protocol",
+    "66eeef8b2a166b0000400004 ShortName": "Elysium",
+    "66eeef8b2a166b0000400004 Description": "Suppresses pain and dulls the senses. For a moment, suffering feels distant — almost irrelevant.",
+
+    "66eeef8b2a166b0000400005 Name": "\"Sisyphus\" Ultimate Physical Protocol",
+    "66eeef8b2a166b0000400005 ShortName": "Sisyphus",
+    "66eeef8b2a166b0000400005 Description": "Forces the body to endure impossible strain. The weight does not disappear — you simply keep moving.",
+
+    "66eeef8b2a166b0000400006 Name": "\"Last Dance\" Endgame Protocol",
+    "66eeef8b2a166b0000400006 ShortName": "Last Dance",
+    "66eeef8b2a166b0000400006 Description": "A short-lived surge of resilience and regeneration. When it ends, the body collects its debt — without mercy.",
+
+    "66eeef8b2a166b0000400007 Name": "\"Bread&Wine\" Energy Supplement Protocol",
+    "66eeef8b2a166b0000400007 ShortName": "Bread&Wine",
+    "66eeef8b2a166b0000400007 Description": "A dense nutrient mixture providing long-lasting energy and hydration. Meant to be consumed before what comes next.",
+
+    "66eeef8b2a166b0000400008 Name": "\"Aegis Lens\" Personal Protective Terminal",
+    "66eeef8b2a166b0000400008 ShortName": "Aegis Lens",
+    "66eeef8b2a166b0000400008 Description": "Reinforced lenses capable of stopping rounds never meant for eyes. Fragile flesh, briefly shielded by something stronger.",
+
+    "66eeef8b2a166b0000400009 Name": "\"Zodiacal Veil\" Experimental Comprehensive Protective Terminal",
+    "66eeef8b2a166b0000400009 ShortName": "Zodiacal Veil",
+    "66eeef8b2a166b0000400009 Description": "A composite visor calibrated against multiple threat vectors. Protection aligned, as if under distant constellations.",
+
+    "66eeef8b2a166b0000400010 Name": "\"Gaea's Bastion\" Ultimate Protection Protocol",
+    "66eeef8b2a166b0000400010 ShortName": "Gaea's Bastion",
+    "66eeef8b2a166b0000400010 Description": "An experimental protective shroud of unknown composition. Wearing it feels less like armor — and more like being buried alive. Its armor rating is the ultimate answer of the universe.",
+
+    "66eeef8b2a166b0000400011 Name": "\"Noah's Ark\" Ultimate Storage Protocol",
+    "66eeef8b2a166b0000400011 ShortName": "Noah's Ark",
+    "66eeef8b2a166b0000400011 Description": "A sealed miracle. What you carry is no longer equipment, but the possibility of continuation.",
+
+    "66eeef8b2a166b0000400012 Name": "\"Prometheus\" Storage Expansion Protocol",
+    "66eeef8b2a166b0000400012 ShortName": "Prometheus",
+    "66eeef8b2a166b0000400012 Description": "Space is compressed, folded, and rewritten within. Records indicate it was never intended for single-operator transport.",
+
+    "66eeef8b2a166b0000400013 Name": "\"Eternal\" Combat Stabilization Doctrine",
+    "66eeef8b2a166b0000400013 ShortName": "Eternal",
+    "66eeef8b2a166b0000400013 Description": "A stabilization doctrine where recoil ceases to be an event. Fire becomes continuous. Time becomes irrelevant.",
+
+    "66eeef8b2a166b0000400014 Name": "\"Gaze\" Rapid Response System",
+    "66eeef8b2a166b0000400014 ShortName": "Gaze",
+    "66eeef8b2a166b0000400014 Description": "A response system that collapses perception, decision, and action into a single moment. By the time you react, it has already happened."
 }

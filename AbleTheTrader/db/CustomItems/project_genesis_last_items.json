@@ -1,24 +1,24 @@
 {
-    "66eeef8b2a166b0000300001": {
-        "itemTplToClone": "5af0454c86f7746bf20992e8",
-        "parentId": "5448f3ac4bdc2dce718b4569",
-        "handbookParentId": "5b47574386f77428ca22b338",
+    "66eeef8b2a166b0000400001": {
+        "itemTplToClone": "637b6251104668754b72f8f9",
+        "parentId": "5448f3a64bdc2d60728b456a",
+        "handbookParentId": "5b47574386f77428ca22b33a",
         "overrideProperties": {
             "ExaminedByDefault": true,
-            "BackgroundColor": "violet",
-            "medUseTime": 5,
-            "MaxHpResource": 5,
+            "BackgroundColor": "red",
+            "medUseTime": 1,
+            "MaxHpResource": 10,
             "Weight": 0.05,
             "Width": 1,
             "Height": 1,
-            "StimulatorBuffs": "",
+            "StimulatorBuffs": "xtst_able_genesis_last_second_genesis_buff",
             "effects_damage": {
                 "DestroyedPart": {
                     "delay": 0,
                     "duration": 0,
                     "fadeOut": 0,
-                    "healthPenaltyMax": 80,
-                    "healthPenaltyMin": 60
+                    "healthPenaltyMax": 100,
+                    "healthPenaltyMin": 100
                 },
                 "Fracture": {
                     "delay": 0,
@@ -26,22 +26,45 @@
                     "fadeOut": 0,
                     "healthPenaltyMax": 0,
                     "healthPenaltyMin": 0
+                },
+                "LightBleeding": {
+                    "delay": 0,
+                    "duration": 0,
+                    "fadeOut": 0,
+                    "cost": 0
+                },
+                "HeavyBleeding": {
+                    "delay": 0,
+                    "duration": 0,
+                    "fadeOut": 0,
+                    "cost": 0
+                },
+                "Pain": {
+                    "delay": 0,
+                    "duration": 0,
+                    "fadeOut": 0,
+                    "cost": 0
+                },
+                "Contusion": {
+                    "delay": 0,
+                    "duration": 0,
+                    "fadeOut": 0,
+                    "cost": 0
                 }
-            },
-            "effects_health": []
+            }
         },
         "locales": {
             "en": {
-                "name": "\"The Mender\" Nanoscale surgical system",
-                "shortName": "Mender",
-                "description": "Automated micro-scale repair prioritizing speed over preservation. Downtime is treated as failure."
+                "name": "\"Second Genesis\" Limbs Repair Injection",
+                "shortName": "Second Genesis",
+                "description": "Repairs fractures and restores ruined limbs. Flesh rewritten, against every rule it should obey."
             }
         },
         "addtoInventorySlots": [],
         "addtoModSlots": false,
         "modSlot": [],
-        "fleaPriceRoubles": 75000,
-        "handbookPriceRoubles": 75000,
+        "fleaPriceRoubles": 300000,
+        "handbookPriceRoubles": 300000,
         "addtoTraders": false,
         "addtoBots": false,
         "addtoStaticLootContainers": false,
@@ -51,16 +74,16 @@
         "weaponPresets": [],
         "masterySections": null
     },
-    "66eeef8b2a166b0000300002": {
-        "itemTplToClone": "590c678286f77426c9660122",
-        "parentId": "5448f3ac4bdc2dce718b4569",
+    "66eeef8b2a166b0000400002": {
+        "itemTplToClone": "60098ad7c2240c0fe85c570a",
+        "parentId": "5448f39d4bdc2d0a728b4568",
         "handbookParentId": "5b47574386f77428ca22b338",
         "overrideProperties": {
             "ExaminedByDefault": true,
-            "BackgroundColor": "violet",
-            "medUseTime": 2,
-            "hpResourceRate": 80,
-            "MaxHpResource": 500,
+            "BackgroundColor": "red",
+            "medUseTime": 1,
+            "hpResourceRate": 100,
+            "MaxHpResource": 600,
             "Weight": 0.05,
             "Width": 1,
             "Height": 1,
@@ -70,40 +93,40 @@
                     "delay": 0,
                     "duration": 0,
                     "fadeOut": 0,
-                    "cost": 10
+                    "cost": 7
                 },
                 "HeavyBleeding": {
                     "delay": 0,
                     "duration": 0,
                     "fadeOut": 0,
-                    "cost": 20
+                    "cost": 15
                 },
                 "Fracture": {
                     "delay": 0,
                     "duration": 0,
                     "fadeOut": 0,
-                    "cost": 50
+                    "cost": 30
                 },
                 "Contusion": {
                     "delay": 0,
                     "duration": 0,
                     "fadeOut": 0,
-                    "cost": 20
+                    "cost": 15
                 },
                 "RadExposure": {
                     "delay": 0,
                     "duration": 0,
                     "fadeOut": 0,
-                    "cost": 40
+                    "cost": 20
                 }
             },
             "effects_health": []
         },
         "locales": {
             "en": {
-                "name": "\"The Sustainer\" Combat Trauma Kit",
-                "shortName": "Sustainer",
-                "description": "Suppresses higher neural functions to ensure continued action. What is lost is considered acceptable."
+                "name": "\"Divine Touch\" Comprehensive Recovery Set",
+                "shortName": "Divine Touch",
+                "description": "Not a medicine, but an intervention. Rapidly restores vitality as if a higher power briefly took notice."
             }
         },
         "addtoInventorySlots": [],
@@ -120,47 +143,39 @@
         "weaponPresets": [],
         "masterySections": null
     },
-    "66eeef8b2a166b0000300003": {
-        "itemTplToClone": "5c0e530286f7747fa1419862",
+    "66eeef8b2a166b0000400003": {
+        "itemTplToClone": "5c0e534186f7747fa1419867",
         "parentId": "5448f3a64bdc2d60728b456a",
         "handbookParentId": "5b47574386f77428ca22b33a",
         "overrideProperties": {
             "ExaminedByDefault": true,
-            "AnimationVariantsNumber": 0,
-            "BackgroundColor": "violet",
-            "StimulatorBuffs": "xtst_able_executor_the_veil_buff",
-            "MaxHpResource": 5,
+            "BackgroundColor": "red",
+            "medUseTime": 1,
+            "MaxHpResource": 10,
             "Weight": 0.05,
+            "Width": 1,
+            "Height": 1,
+            "StimulatorBuffs": "xtst_able_genesis_last_divine_shines_buff",
             "effects_damage": {
-                "Contusion": {
-                    "Delay": 3,
-                    "Duration": 300,
-                    "fadeOut": 0
-                },
                 "Pain": {
-                    "Delay": 3,
-                    "Duration": 300,
-                    "fadeOut": 0
+                    "delay": 0,
+                    "duration": 0,
+                    "fadeOut": 0,
+                    "cost": 0
                 },
-                "LightBleeding": {
-                    "delay": 3,
-                    "duration": 300,
-                    "fadeOut": 0
-                },
-                "HeavyBleeding": {
-                    "delay": 3,
-                    "duration": 300,
-                    "fadeOut": 0
+                "Contusion": {
+                    "delay": 0,
+                    "duration": 0,
+                    "fadeOut": 0,
+                    "cost": 0
                 }
-            },
-            "effects_health": [],
-            "medUseTime": 1
+            }
         },
         "locales": {
             "en": {
-                "name": "\"The Veil\" Central nervous system inhibitor",
-                "shortName": "Veil",
-                "description": "Reduces pain response without suppressing sensory feedback."
+                "name": "\"Divine Shines\" Hematopoietic Stimulator",
+                "shortName": "Divine Shines",
+                "description": "Repairs fractures and restores ruined limbs. Flesh rewritten, against every rule it should obey."
             }
         },
         "addtoInventorySlots": [],
@@ -177,37 +192,53 @@
         "weaponPresets": [],
         "masterySections": null
     },
-    "66eeef8b2a166b0000300004": {
-        "itemTplToClone": "5ed51652f6c34d2cc26336a1",
+    "66eeef8b2a166b0000400004": {
+        "itemTplToClone": "5c0e530286f7747fa1419862",
         "parentId": "5448f3a64bdc2d60728b456a",
         "handbookParentId": "5b47574386f77428ca22b33a",
         "overrideProperties": {
             "ExaminedByDefault": true,
-            "AnimationVariantsNumber": 0,
-            "BackgroundColor": "violet",
-            "Height": 1,
-            "MaxHpResource": 5,
-            "StimulatorBuffs": "xtst_able_executor_the_burden_buff",
+            "BackgroundColor": "red",
+            "StimulatorBuffs": "xtst_able_genesis_last_Elysium_buff",
+            "MaxHpResource": 10,
             "Weight": 0.05,
-            "Width": 1,
-            "effects_damage": [],
+            "effects_damage": {
+                "Contusion": {
+                    "Delay": 3,
+                    "Duration": 600,
+                    "fadeOut": 0
+                },
+                "Pain": {
+                    "Delay": 3,
+                    "Duration": 600,
+                    "fadeOut": 0
+                },
+                "LightBleeding": {
+                    "delay": 3,
+                    "duration": 600,
+                    "fadeOut": 0
+                },
+                "HeavyBleeding": {
+                    "delay": 3,
+                    "duration": 600,
+                    "fadeOut": 0
+                }
+            },
             "effects_health": [],
-            "hpResourceRate": 0,
-            "medEffectType": "duringUse",
-            "medUseTime": 2
+            "medUseTime": 1
         },
         "locales": {
             "en": {
-                "name": "\"The Burden\" Stimulant",
-                "shortName": "Burden",
-                "description": "Forces continued movement under extreme load. Stopping is not an evaluated option."
+                "name": "\"Elysium\" Negative sensory masking agent",
+                "shortName": "Elysium",
+                "description": "Suppresses pain and dulls the senses"
             }
         },
         "addtoInventorySlots": [],
         "addtoModSlots": false,
         "modSlot": [],
-        "fleaPriceRoubles": 300000,
-        "handbookPriceRoubles": 300000,
+        "fleaPriceRoubles": 500000,
+        "handbookPriceRoubles": 500000,
         "addtoTraders": false,
         "addtoBots": false,
         "addtoStaticLootContainers": false,
@@ -217,50 +248,85 @@
         "weaponPresets": [],
         "masterySections": null
     },
-    "66eeef8b2a166b0000300005": {
+    "66eeef8b2a166b0000400005": {
+        "itemTplToClone": "5ed51652f6c34d2cc26336a1",
+        "parentId": "5448f3a64bdc2d60728b456a",
+        "handbookParentId": "5b47574386f77428ca22b33a",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "BackgroundColor": "red",
+            "StimulatorBuffs": "xtst_able_genesis_last_Sisyphus_buff",
+            "MaxHpResource": 10,
+            "Weight": 0.05,
+            "effects_damage": {},
+            "effects_health": [],
+            "medUseTime": 1
+        },
+        "locales": {
+            "en": {
+                "name": "\"Sisyphus\" General stimulant",
+                "shortName": "Sisyphus",
+                "description": "Forces the body to endure impossible strain."
+            }
+        },
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [],
+        "fleaPriceRoubles": 500000,
+        "handbookPriceRoubles": 500000,
+        "addtoTraders": false,
+        "addtoBots": false,
+        "addtoStaticLootContainers": false,
+        "staticLootContainers": [],
+        "masteries": false,
+        "addWeaponPreset": false,
+        "weaponPresets": [],
+        "masterySections": null
+    },
+    "66eeef8b2a166b0000400006": {
         "itemTplToClone": "5c0e531286f7747fa54205c2",
         "parentId": "5448f3a64bdc2d60728b456a",
         "handbookParentId": "5b47574386f77428ca22b33a",
         "overrideProperties": {
             "ExaminedByDefault": true,
-            "BackgroundColor": "violet",
-            "StimulatorBuffs": "xtst_able_executor_the_mandate_buff",
-            "MaxHpResource": 3,
+            "BackgroundColor": "red",
+            "StimulatorBuffs": "xtst_able_genesis_last_last_dance_buff",
+            "MaxHpResource": 5,
             "effects_damage": {
                 "Contusion": {
                     "Delay": 1,
-                    "Duration": 60,
+                    "Duration": 120,
                     "fadeOut": 0
                 },
                 "Pain": {
                     "Delay": 1,
-                    "Duration": 60,
+                    "Duration": 120,
                     "fadeOut": 0
                 },
                 "LightBleeding": {
                     "delay": 1,
-                    "duration": 60,
+                    "duration": 120,
                     "fadeOut": 0
                 },
                 "HeavyBleeding": {
                     "delay": 1,
-                    "duration": 60,
+                    "duration": 120,
                     "fadeOut": 0
                 }
             }
         },
         "locales": {
             "en": {
-                "name": "\"The Mandate\" Emergency Protocol",
-                "shortName": "Mandate",
-                "description": "Overrides all restraint systems. Compliance is mandatory."
+                "name": "\"Last Dance\" Endgame Protocol",
+                "shortName": "Last Dance",
+                "description": "A short-lived surge of resilience and regeneration."
             }
         },
         "addtoInventorySlots": [],
         "addtoModSlots": false,
         "modSlot": [],
-        "fleaPriceRoubles": 300000,
-        "handbookPriceRoubles": 300000,
+        "fleaPriceRoubles": 500000,
+        "handbookPriceRoubles": 500000,
         "addtoTraders": false,
         "addtoBots": false,
         "addtoStaticLootContainers": false,
@@ -270,28 +336,28 @@
         "weaponPresets": [],
         "masterySections": null
     },
-    "66eeef8b2a166b0000300006": {
-        "itemTplToClone": "5751435d24597720a27126d1",
+    "66eeef8b2a166b0000400007": {
+        "itemTplToClone": "60b0f93284c20f0feb453da7",
         "parentId": "5448e8d64bdc2dce718b4568",
         "handbookParentId": "5b47574386f77428ca22b335",
         "overrideProperties": {
             "ExaminedByDefault": true,
-            "BackgroundColor": "violet",
-            "StimulatorBuffs": "xtst_able_executor_the_provision_buff",
+            "BackgroundColor": "red",
+            "StimulatorBuffs": "xtst_able_genesis_last_bread_and_wine_buff",
             "effects_health": {
                 "Energy": {
-                    "value": 50
+                    "value": 75
                 },
                 "Hydration": {
-                    "value": 55
+                    "value": 75
                 }
             },
             "weight": 0.1
         },
         "locales": {
             "en": {
-                "name": "\"The Provision\" Energy drink",
-                "shortName": "Provision",
+                "name": "\"Bread&Wine\" Energy drink",
+                "shortName": "Bread&Wine",
                 "description": "A dense nutritional supply issued without ceremony. Consumption is advised before what comes next."
             }
         },
@@ -309,13 +375,13 @@
         "weaponPresets": [],
         "masterySections": null
     },
-    "66eeef8b2a166b0000300007": {
-        "itemTplToClone": "59e7715586f7742ee5789605",
-        "parentId": "5a341c4686f77469e155819e",
-        "handbookParentId": "5b47574386f77428ca22b32f",
+    "66eeef8b2a166b0000400008": {
+        "itemTplToClone": "603409c80ca681766b6a0fb2",
+        "parentId": "5448e5724bdc2ddf718b4568",
+        "handbookParentId": "5b47574386f77428ca22b331",
         "overrideProperties": {
             "ExaminedByDefault": true,
-            "BackgroundColor": "violet",
+            "BackgroundColor": "red",
             "ConflictingItems": [],
             "Weight": 0.1,
             "MaterialType": "BodyArmor",
@@ -324,10 +390,10 @@
             "BlindnessProtection": 0.7,
             "ArmorType": "Heavy",
             "speedPenaltyPercent": 10,
-            "weaponErgonomicPenalty": 10,
-            "armorClass": "4",
-            "Durability": 90,
-            "MaxDurability": 90,
+            "weaponErgonomicPenalty": 15,
+            "armorClass": "6",
+            "Durability": 100,
+            "MaxDurability": 100,
             "RepairCost": 10,
             "RepairSpeed": 10,
             "armorColliders": [
@@ -370,16 +436,16 @@
         },
         "locales": {
             "en": {
-                "name": "Executor Protective Terminal",
-                "shortName": "EPT",
+                "name": "Aegis Lens",
+                "shortName": "Aegis Lens",
                 "description": "Finalized personal protection system integrated with Executor protocols."
             }
         },
         "addtoInventorySlots": [],
         "addtoModSlots": false,
         "modSlot": [],
-        "fleaPriceRoubles": 200000,
-        "handbookPriceRoubles": 200000,
+        "fleaPriceRoubles": 300000,
+        "handbookPriceRoubles": 300000,
         "addtoTraders": false,
         "addtoBots": false,
         "addtoStaticLootContainers": false,
@@ -389,14 +455,174 @@
         "weaponPresets": [],
         "masterySections": null
     },
-    "66eeef8b2a166b0000300008": {
+    "66eeef8b2a166b0000400009": {
+        "itemTplToClone": "603409c80ca681766b6a0fb2",
+        "parentId": "5448e5724bdc2ddf718b4568",
+        "handbookParentId": "5b47574386f77428ca22b331",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "BackgroundColor": "red",
+            "ConflictingItems": [],
+            "Weight": 0.1,
+            "MaterialType": "BodyArmor",
+            "ArmorMaterial": "ArmoredSteel",
+            "DeafStrength": "High",
+            "BlindnessProtection": 0.7,
+            "ArmorType": "Heavy",
+            "speedPenaltyPercent": 10,
+            "weaponErgonomicPenalty": 15,
+            "armorClass": "12",
+            "Durability": 144,
+            "MaxDurability": 144,
+            "RepairCost": 10,
+            "RepairSpeed": 10,
+            "armorColliders": [
+                "Back",
+                "BackHead",
+                "Ears",
+                "NeckBack",
+                "NeckFront",
+                "Eyes",
+                "Groin",
+                "HeadCommon",
+                "Jaw",
+                "LeftCalf",
+                "LeftForearm",
+                "LeftSide",
+                "LeftSideChestDown",
+                "LeftSideChestUp",
+                "LeftThigh",
+                "LeftUpperArm",
+                "LowerBack",
+                "NeckBack",
+                "NeckFront",
+                "ParietalHead",
+                "Pelvis",
+                "PelvisBack",
+                "Ribcage",
+                "RibcageLow",
+                "RibcageUp",
+                "RightCalf",
+                "RightForearm",
+                "RightSide",
+                "RightSideChestDown",
+                "RightSideChestUp",
+                "RightThigh",
+                "RightUpperArm",
+                "SpineDown",
+                "SpineTop",
+                "Stomach"
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "Zodiacal Veil",
+                "shortName": "Zodiacal Veil",
+                "description": "Finalized personal protection system integrated with Executor protocols."
+            }
+        },
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [],
+        "fleaPriceRoubles": 666666,
+        "handbookPriceRoubles": 666666,
+        "addtoTraders": false,
+        "addtoBots": false,
+        "addtoStaticLootContainers": false,
+        "staticLootContainers": [],
+        "masteries": false,
+        "addWeaponPreset": false,
+        "weaponPresets": [],
+        "masterySections": null
+    },
+    "66eeef8b2a166b0000400010": {
+        "itemTplToClone": "6571bde39837cc51b800c212",
+        "parentId": "5a341c4686f77469e155819e",
+        "handbookParentId": "5b47574386f77428ca22b32f",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "BackgroundColor": "red",
+            "ConflictingItems": [],
+            "Weight": 0.1,
+            "MaterialType": "BodyArmor",
+            "ArmorMaterial": "ArmoredSteel",
+            "DeafStrength": "High",
+            "BlindnessProtection": 0.7,
+            "ArmorType": "Heavy",
+            "speedPenaltyPercent": 10,
+            "weaponErgonomicPenalty": 10,
+            "armorClass": "42",
+            "Durability": 666,
+            "MaxDurability": 666,
+            "RepairCost": 10,
+            "RepairSpeed": 10,
+            "armorColliders": [
+                "Back",
+                "BackHead",
+                "Ears",
+                "NeckBack",
+                "NeckFront",
+                "Eyes",
+                "Groin",
+                "HeadCommon",
+                "Jaw",
+                "LeftCalf",
+                "LeftForearm",
+                "LeftSide",
+                "LeftSideChestDown",
+                "LeftSideChestUp",
+                "LeftThigh",
+                "LeftUpperArm",
+                "LowerBack",
+                "NeckBack",
+                "NeckFront",
+                "ParietalHead",
+                "Pelvis",
+                "PelvisBack",
+                "Ribcage",
+                "RibcageLow",
+                "RibcageUp",
+                "RightCalf",
+                "RightForearm",
+                "RightSide",
+                "RightSideChestDown",
+                "RightSideChestUp",
+                "RightThigh",
+                "RightUpperArm",
+                "SpineDown",
+                "SpineTop",
+                "Stomach"
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "Gaea's Bastion",
+                "shortName": "Gaea's Bastion",
+                "description": "Finalized personal protection system integrated with Executor protocols."
+            }
+        },
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [],
+        "fleaPriceRoubles": 6666666,
+        "handbookPriceRoubles": 6666666,
+        "addtoTraders": false,
+        "addtoBots": false,
+        "addtoStaticLootContainers": false,
+        "staticLootContainers": [],
+        "masteries": false,
+        "addWeaponPreset": false,
+        "weaponPresets": [],
+        "masterySections": null
+    },
+    "66eeef8b2a166b0000400011": {
         "itemTplToClone": "664a55d84a90fc2c8a6305c9",
         "parentId": "5448bf274bdc2dfc2f8b456a",
         "handbookParentId": "5b5f6fd286f774093f2ecf0d",
         "overrideProperties": {
             "ExaminedByDefault": true,
-            "BackgroundColor": "violet",
-            "Weight": -20,
+            "BackgroundColor": "red",
+            "Weight": -40,
             "Grids": [
                 {
                     "_id": "664a55d84a90fc2c8a633001",
@@ -404,19 +630,10 @@
                     "_parent": "66eeef8b2a166b0000300008",
                     "_props": {
                         "cellsH": 3,
-                        "cellsV": 4,
+                        "cellsV": 5,
                         "filters": [
                             {
                                 "ExcludedFilter": [
-                                    "66eeef8b2a166b0000100008",
-                                    "66eeef8b2a166b0000100009",
-                                    "66eeef8b2a166b0000200009",
-                                    "66eeef8b2a166b0000200010",
-                                    "66eeef8b2a166b0000200011",
-                                    "66eeef8b2a166b0000300008",
-                                    "66eeef8b2a166b0000300009",
-                                    "66eeef8b2a166b0000400011",
-                                    "66eeef8b2a166b0000400012"
                                 ],
                                 "Filter": [
                                     "54009119af1c881c07000029"
@@ -435,8 +652,8 @@
                     "_name": "2",
                     "_parent": "66eeef8b2a166b0000300008",
                     "_props": {
-                        "cellsH": 1,
-                        "cellsV": 4,
+                        "cellsH": 2,
+                        "cellsV": 5,
                         "filters": [
                             {
                                 "ExcludedFilter": [],
@@ -445,11 +662,6 @@
                                     "66eeef8b2a166b0000100009",
                                     "66eeef8b2a166b0000200009",
                                     "66eeef8b2a166b0000200010",
-                                    "66eeef8b2a166b0000200011",
-                                    "66eeef8b2a166b0000300008",
-                                    "66eeef8b2a166b0000300009",
-                                    "66eeef8b2a166b0000400011",
-                                    "66eeef8b2a166b0000400012",
                                     "5485a8684bdc2da71d8b4567",
                                     "543be5cb4bdc2deb348b4568",
                                     "5e2af51086f7746d3f3c3402",
@@ -487,71 +699,10 @@
                     "_parent": "66eeef8b2a166b0000300008",
                     "_props": {
                         "cellsH": 1,
-                        "cellsV": 4,
+                        "cellsV": 5,
                         "filters": [
                             {
                                 "ExcludedFilter": [
-                                    "66eeef8b2a166b0000100008",
-                                    "66eeef8b2a166b0000100009",
-                                    "66eeef8b2a166b0000200009",
-                                    "66eeef8b2a166b0000200010",
-                                    "66eeef8b2a166b0000200011",
-                                    "66eeef8b2a166b0000300008",
-                                    "66eeef8b2a166b0000300009",
-                                    "66eeef8b2a166b0000400011",
-                                    "66eeef8b2a166b0000400012"
-                                ],
-                                "Filter": [
-                                    "5485a8684bdc2da71d8b4567",
-                                    "543be5cb4bdc2deb348b4568",
-                                    "5e2af51086f7746d3f3c3402",
-                                    "5656eb674bdc2d35148b457c",
-                                    "5ede474b0c226a66f5402622",
-                                    "5ede475b549eed7c6d5c18fb",
-                                    "5ede4739e0350d05467f73e8",
-                                    "5f0c892565703e5c461894e9",
-                                    "5ede47405b097655935d7d16",
-                                    "5ede475339ee016e8c534742",
-                                    "5ede47641cf3836a88318df1",
-                                    "543be6564bdc2df4348b4568",
-                                    "57864c8c245977548867e7f1",
-                                    "543be5664bdc2dd4348b4569",
-                                    "543be6674bdc2df1348b4569",
-                                    "5c99f98d86f7745c314214b3",
-                                    "543be5dd4bdc2deb348b4569",
-                                    "5447bedf4bdc2d87278b4568",
-                                    "5447e0e74bdc2d3c308b4567",
-                                    "5447bee84bdc2dc3278b4569",
-                                    "5795f317245977243854e041"
-                                ]
-                            }
-                        ],
-                        "isSortingTable": false,
-                        "maxCount": 0,
-                        "maxWeight": 0,
-                        "minCount": 0
-                    },
-                    "_proto": "55d329c24bdc2d892f8b4567"
-                },
-                {
-                    "_id": "6656741458ffda3ac0683004",
-                    "_name": "4",
-                    "_parent": "66eeef8b2a166b0000300008",
-                    "_props": {
-                        "cellsH": 1,
-                        "cellsV": 4,
-                        "filters": [
-                            {
-                                "ExcludedFilter": [
-                                    "66eeef8b2a166b0000100008",
-                                    "66eeef8b2a166b0000100009",
-                                    "66eeef8b2a166b0000200009",
-                                    "66eeef8b2a166b0000200010",
-                                    "66eeef8b2a166b0000200011",
-                                    "66eeef8b2a166b0000300008",
-                                    "66eeef8b2a166b0000300009",
-                                    "66eeef8b2a166b0000400011",
-                                    "66eeef8b2a166b0000400012"
                                 ],
                                 "Filter": [
                                     "5485a8684bdc2da71d8b4567",
@@ -589,8 +740,8 @@
         },
         "locales": {
             "en": {
-                "name": "\"The Cabinet\" Secure Container",
-                "shortName": "Cabinet SC",
+                "name": "\"Noah's Ark\" Ultimate Storage Protocol",
+                "shortName": "Noah's Ark",
                 "description": "A sealed miracle."
             }
         },
@@ -608,22 +759,22 @@
         "weaponPresets": [],
         "masterySections": null
     },
-    "66eeef8b2a166b0000300009": {
+    "66eeef8b2a166b0000400012": {
         "itemTplToClone": "5c093e3486f77430cb02e593",
         "parentId": "5795f317245977243854e041",
         "handbookParentId": "5b5f6fa186f77409407a7eb7",
         "overrideProperties": {
             "ExaminedByDefault": true,
             "BackgroundColor": "violet",
-            "Weight": -15,
+            "Weight": -20,
             "Grids": [
                 {
                     "_id": "5c093e3486f77430cb02e001",
                     "_name": "main",
                     "_parent": "66eeef8b2a166b0000100009",
                     "_props": {
-                        "cellsH": 4,
-                        "cellsV": 5,
+                        "cellsH": 5,
+                        "cellsV": 6,
                         "filters": [
                             {
                                 "ExcludedFilter": [
@@ -646,8 +797,8 @@
         },
         "locales": {
             "en": {
-                "name": "\"The Compartment\" Spatial Compression Unit",
-                "shortName": "Compartment",
+                "name": "\"Prometheus\" Storage Expansion Protocol",
+                "shortName": "Prometheus",
                 "description": "A carry system designed for Executors."
             }
         },
@@ -665,18 +816,18 @@
         "weaponPresets": [],
         "masterySections": null
     },
-    "66eeef8b2a166b0000300010": {
-        "itemTplToClone": "59fc48e086f77463b1118392",
+    "66eeef8b2a166b0000400013": {
+        "itemTplToClone": "59f8a37386f7747af3328f06",
         "parentId": "55818af64bdc2d5b648b4570",
         "handbookParentId": "5b5f71de86f774093f2ecf13",
         "overrideProperties": {
             "BackgroundColor": "violet",
             "ConflictingItems": [],
             "DiscardLimit": -1,
-            "Accuracy": 0.05,
-            "Ergonomics": 10,
+            "Accuracy": 0.17,
+            "Ergonomics": 17,
             "Velocity": 0,
-            "Recoil": -25,
+            "Recoil": -77,
             "HeatFactor": 0.95,
             "DurabilityBurnModificator": 0.8,
             "ExaminedByDefault": true,
@@ -686,21 +837,21 @@
             "ExtraSizeRight": 0,
             "ExtraSizeUp": 0,
             "Height": 1,
-            "Weight": 0.05,
+            "Weight": -2,
             "Width": 1
         },
         "locales": {
             "en": {
-                "name": "\"The Bough\" Foregrip",
-                "shortName": "Bough",
+                "name": "\"Eternal\" Combat Stabilization Doctrine",
+                "shortName": "Eternal",
                 "description": "A structural extension designed to transfer recoil through unnatural leverage paths."
             }
         },
         "addtoInventorySlots": [],
         "addtoModSlots": false,
         "modSlot": [],
-        "fleaPriceRoubles": 70000,
-        "handbookPriceRoubles": 70000,
+        "fleaPriceRoubles": 177777,
+        "handbookPriceRoubles": 177777,
         "addtoTraders": false,
         "addtoBots": false,
         "addtoStaticLootContainers": false,
@@ -710,18 +861,18 @@
         "weaponPresets": [],
         "masterySections": null
     },
-    "66eeef8b2a166b0000300011": {
-        "itemTplToClone": "6272370ee4013c5d7e31f418",
+    "66eeef8b2a166b0000400014": {
+        "itemTplToClone": "644a3df63b0b6f03e101e065",
         "parentId": "55818b164bdc2ddc698b456c",
         "handbookParentId": "5b5f737886f774093e6cb4fb",
         "overrideProperties": {
             "BackgroundColor": "violet",
             "ConflictingItems": [],
             "DiscardLimit": -1,
-            "Accuracy": 0.05,
-            "Ergonomics": 25,
+            "Accuracy": 0.17,
+            "Ergonomics": 77,
             "Velocity": 0,
-            "Recoil": -5,
+            "Recoil": -17,
             "HeatFactor": 0.95,
             "DurabilityBurnModificator": 0.95,
             "ExaminedByDefault": true,
@@ -731,21 +882,21 @@
             "ExtraSizeRight": 0,
             "ExtraSizeUp": 0,
             "Height": 1,
-            "Weight": 0.05,
+            "Weight": -2,
             "Width": 1
         },
         "locales": {
             "en": {
-                "name": "\"The Stretch\" Tactical equipment",
-                "shortName": "Stretch",
+                "name": "\"Gaze\" Tactical equipment",
+                "shortName": "Gaze",
                 "description": "A tactical interface that extends operator control beyond physiological limits."
             }
         },
         "addtoInventorySlots": [],
         "addtoModSlots": false,
         "modSlot": [],
-        "fleaPriceRoubles": 70000,
-        "handbookPriceRoubles": 70000,
+        "fleaPriceRoubles": 177777,
+        "handbookPriceRoubles": 177777,
         "addtoTraders": false,
         "addtoBots": false,
         "addtoStaticLootContainers": false,

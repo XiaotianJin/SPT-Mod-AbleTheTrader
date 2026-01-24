@@ -58,7 +58,7 @@
             "RepairSpeed": 0,
             "StackMaxSize": 1,
             "StackObjectsCount": 1,
-            "StimulatorBuffs": "xtst_able_canon_surgical_kit_buff",
+            "StimulatorBuffs": "",
             "Unlootable": false,
             "UnlootableFromSide": [],
             "UnlootableFromSlot": "FirstPrimaryWeapon",
@@ -79,27 +79,9 @@
                 "Fracture": {
                     "delay": 0,
                     "duration": 0,
-                    "fadeOut": 0
-                },
-                "LightBleeding": {
-                    "delay": 0,
-                    "duration": 0,
-                    "fadeOut": 0
-                },
-                "HeavyBleeding": {
-                    "delay": 0,
-                    "duration": 0,
-                    "fadeOut": 0
-                },
-                "Contusion": {
-                    "delay": 0,
-                    "duration": 0,
-                    "fadeOut": 0
-                },
-                "RadExposure": {
-                    "delay": 0,
-                    "duration": 0,
-                    "fadeOut": 0
+                    "fadeOut": 0,
+                    "healthPenaltyMax": 0,
+                    "healthPenaltyMin": 0
                 }
             },
             "effects_health": [],
@@ -649,7 +631,14 @@
                             {
                                 "ExcludedFilter": [
                                     "66eeef8b2a166b0000100008",
-                                    "66eeef8b2a166b0000100009"
+                                    "66eeef8b2a166b0000100009",
+                                    "66eeef8b2a166b0000200009",
+                                    "66eeef8b2a166b0000200010",
+                                    "66eeef8b2a166b0000200011",
+                                    "66eeef8b2a166b0000300008",
+                                    "66eeef8b2a166b0000300009",
+                                    "66eeef8b2a166b0000400011",
+                                    "66eeef8b2a166b0000400012"
                                 ],
                                 "Filter": [
                                     "54009119af1c881c07000029"
@@ -676,6 +665,13 @@
                                 "Filter": [
                                     "66eeef8b2a166b0000100008",
                                     "66eeef8b2a166b0000100009",
+                                    "66eeef8b2a166b0000200009",
+                                    "66eeef8b2a166b0000200010",
+                                    "66eeef8b2a166b0000200011",
+                                    "66eeef8b2a166b0000300008",
+                                    "66eeef8b2a166b0000300009",
+                                    "66eeef8b2a166b0000400011",
+                                    "66eeef8b2a166b0000400012",
                                     "5485a8684bdc2da71d8b4567",
                                     "543be5cb4bdc2deb348b4568",
                                     "5e2af51086f7746d3f3c3402",
@@ -750,7 +746,14 @@
                             {
                                 "ExcludedFilter": [
                                     "66eeef8b2a166b0000100008",
-                                    "66eeef8b2a166b0000100009"
+                                    "66eeef8b2a166b0000100009",
+                                    "66eeef8b2a166b0000200009",
+                                    "66eeef8b2a166b0000200010",
+                                    "66eeef8b2a166b0000200011",
+                                    "66eeef8b2a166b0000300008",
+                                    "66eeef8b2a166b0000300009",
+                                    "66eeef8b2a166b0000400011",
+                                    "66eeef8b2a166b0000400012"
                                 ],
                                 "Filter": [
                                     "54009119af1c881c07000029"
