@@ -25,8 +25,11 @@
     <PackageReference Include="WTT-ServerCommonLib" Version="2.0.11" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="db\CustomQuests\66eeef8b2a166b0000000000\Images\" />
+    <Folder Include="db\CustomQuests\66eeef8b2a166b0000000000\Locales\" />
+    <Folder Include="db\CustomQuests\66eeef8b2a166b0000000000\QuestAssort\" />
+    <Folder Include="db\CustomQuests\66eeef8b2a166b0000000000\Quests\" />
     <Folder Include="db\CustomQuestZones\" />
-    <Folder Include="db\CustomQuests\" />
     <Folder Include="db\CustomLocales\" />
     <Folder Include="db\CustomProfiles\" />
   </ItemGroup>
@@ -36,6 +39,20 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="db\Able.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="db\CustomQuests\66eeef8b2a166b0000000000\Images\able_lv1_mission.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="db\CustomQuests\66eeef8b2a166b0000000000\Images\able_lv2_mission.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="db\CustomQuests\66eeef8b2a166b0000000000\Images\able_lv3_mission.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="db\CustomQuests\66eeef8b2a166b0000000000\Images\able_lv4_mission.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
