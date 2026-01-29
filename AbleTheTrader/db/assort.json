@@ -468,7 +468,7 @@
         },
         {
             "_id": "66eeef8b2a16600000000002",
-            "_tpl": "5d235bb686f77443f4331278",
+            "_tpl": "66eeef8b2a166b9000000001",
             "parentId": "hideout",
             "slotId": "hideout",
             "upd": {
@@ -480,7 +480,7 @@
         },
         {
             "_id": "66eeef8b2a16600000000003",
-            "_tpl": "619cbf9e0a7c3a1a2731940a",
+            "_tpl": "66eeef8b2a166b9000000002",
             "parentId": "hideout",
             "slotId": "hideout",
             "upd": {
@@ -492,7 +492,7 @@
         },
         {
             "_id": "66eeef8b2a16600000000004",
-            "_tpl": "59fafd4b86f7745ca07e1232",
+            "_tpl": "66eeef8b2a166b9000000003",
             "parentId": "hideout",
             "slotId": "hideout",
             "upd": {
@@ -504,7 +504,7 @@
         },
         {
             "_id": "66eeef8b2a16600000000005",
-            "_tpl": "619cbf7d23893217ec30b689",
+            "_tpl": "66eeef8b2a166b9000000004",
             "parentId": "hideout",
             "slotId": "hideout",
             "upd": {
@@ -1940,6 +1940,7 @@
         "66eeef8b2a16000020000018": 2,
         "66eeef8b2a16000020000019": 2,
         "66eeef8b2a16000020000020": 2,
+        "66eeef8b2a16600002000011": 2,
 
         "66eeef8b2a16600000000000": 1,
         "66eeef8b2a16600000000001": 1,

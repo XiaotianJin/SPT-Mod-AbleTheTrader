@@ -1,4 +1,20 @@
 {
+    "66eeef8b2a166b9000000001 Name": "SSIC(Able扩展版)",
+    "66eeef8b2a166b9000000001 ShortName": "SSIC-AEE",
+    "66eeef8b2a166b9000000001 Description": "扩展的SSIC，除了大小变化之外，还新增了药品，投掷武器，刀和配件的兼容",
+
+    "66eeef8b2a166b9000000002 Name": "钥匙卡收纳盒(Able扩展版)",
+    "66eeef8b2a166b9000000002 ShortName": "钥匙卡-AEE",
+    "66eeef8b2a166b9000000002 Description": "扩展的钥匙卡收纳盒，空间超大",
+
+    "66eeef8b2a166b9000000003 Name": "钥匙收纳器(Able扩展版)",
+    "66eeef8b2a166b9000000003 ShortName": "钥匙-AEE",
+    "66eeef8b2a166b9000000003 Description": "扩展的钥匙收纳器，空间超大",
+
+    "66eeef8b2a166b9000000004 Name": "注射器收纳盒(Able扩展版)",
+    "66eeef8b2a166b9000000004 ShortName": "注射器-AEE",
+    "66eeef8b2a166b9000000004 Description": "扩展的注射器收纳盒，空间超大",
+
     "66eeef8b2a166b0000100001 Name": "正典手术包",
     "66eeef8b2a166b0000100001 ShortName": "正典手术",
     "66eeef8b2a166b0000100001 Description": "基于标准化创伤处理流程优化的野战手术工具。",

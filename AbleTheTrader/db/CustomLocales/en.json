@@ -1,4 +1,20 @@
 {
+    "66eeef8b2a166b9000000001 Name": "SSIC(Able Extented Edition)",
+    "66eeef8b2a166b9000000001 ShortName": "SSIC-AEE",
+    "66eeef8b2a166b9000000001 Description": "Extented SSIC, in addition to size variations, compatibility with drugs, throwing weapons, knives, and accessories has also been added",
+
+    "66eeef8b2a166b9000000002 Name": "Keycard holder case(Able Extented Edition)",
+    "66eeef8b2a166b9000000002 ShortName": "Keycards-AEE",
+    "66eeef8b2a166b9000000002 Description": "Extented keycard holder case",
+
+    "66eeef8b2a166b9000000003 Name": "Key tool(Able Extented Edition)",
+    "66eeef8b2a166b9000000003 ShortName": "Key tool-AEE",
+    "66eeef8b2a166b9000000003 Description": "Extented key tool",
+
+    "66eeef8b2a166b9000000004 Name": "Injector case(Able Extented Edition)",
+    "66eeef8b2a166b9000000004 ShortName": "Injectors-AEE",
+    "66eeef8b2a166b9000000004 Description": "Extented injector case",
+
     "66eeef8b2a166b0000100001 Name": "Canon Surgical Kit",
     "66eeef8b2a166b0000100001 ShortName": "CSK",
     "66eeef8b2a166b0000100001 Description": "Optimized surgical procedures based on standardized trauma doctrine.",

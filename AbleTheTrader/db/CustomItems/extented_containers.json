@@ -1,0 +1,243 @@
+{
+    "66eeef8b2a166b9000000001": {
+        "itemTplToClone": "5d235bb686f77443f4331278",
+        "parentId": "5795f317245977243854e041",
+        "handbookParentId": "5b5f6fa186f77409407a7eb7",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "BackgroundColor": "green",
+            "Weight": -5,
+            "Grids": [
+                {
+                    "_id": "5d235bb686f77443f433127a",
+                    "_name": "main",
+                    "_parent": "66eeef8b2a166b9000000001",
+                    "_props": {
+                        "cellsH": 7,
+                        "cellsV": 7,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [],
+                                "Filter": [
+                                    "59faff1d86f7746c51718c9c",
+                                    "5f745ee30acaeb0d490d8c5b",
+                                    "5c1267ee86f77416ec610f72",
+                                    "5d235a5986f77443f6329bc6",
+                                    "59f32bb586f774757e1e8442",
+                                    "59f32c3b86f77472a31742f0",
+                                    "590c621186f774138d11ea29",
+                                    "543be5e94bdc2df1348b4568",
+                                    "543be5dd4bdc2deb348b4569",
+                                    "6662e9aca7e0b43baa3d5f74",
+                                    "6662e9cda7e0b43baa3d5f76",
+                                    "6662e9f37fa79a6d83730fa0",
+                                    "6662ea05f6259762c56f3189",
+                                    "67449b6c89d5e1ddc603f504",
+                                    "6759673c76e93d8eb20b2080",
+                                    "675dc9d37ae1a8792107ca96",
+                                    "675dcb0545b1a2d108011b2b",
+                                    "6764207f2fa5e32733055c4a",
+                                    "6764202ae307804338014c1a",
+                                    "543be6564bdc2df4348b4568",
+                                    "543be5664bdc2dd4348b4569",
+                                    "5447e1d04bdc2dff2f8b4567",
+                                    "5448fe124bdc2da5018b4567",
+                                    "5c12688486f77426843c7d32"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "SSIC(Able exetented edition)",
+                "shortName": "SSIC-A",
+                "description": ""
+            }
+        },
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [],
+        "fleaPriceRoubles": 600000,
+        "handbookPriceRoubles": 600000,
+        "addtoTraders": false,
+        "addtoBots": false,
+        "addtoStaticLootContainers": false,
+        "staticLootContainers": [],
+        "masteries": false,
+        "addWeaponPreset": false,
+        "weaponPresets": [],
+        "masterySections": null
+    },
+    "66eeef8b2a166b9000000002": {
+        "itemTplToClone": "619cbf9e0a7c3a1a2731940a",
+        "parentId": "5795f317245977243854e041",
+        "handbookParentId": "5b5f6fa186f77409407a7eb7",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "BackgroundColor": "green",
+            "Weight": -1,
+            "Grids": [
+                {
+                    "_id": "619cd188a09b63518b0c0cdc",
+                    "_name": "main",
+                    "_parent": "66eeef8b2a166b9000000002",
+                    "_props": {
+                        "cellsH": 14,
+                        "cellsV": 14,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [],
+                                "Filter": [
+                                    "5c164d2286f774194c5e69fa"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "KeyCards(Able Extented Edition)",
+                "shortName": "KC-AEE",
+                "description": ""
+            }
+        },
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [],
+        "fleaPriceRoubles": 100000,
+        "handbookPriceRoubles": 100000,
+        "addtoTraders": false,
+        "addtoBots": false,
+        "addtoStaticLootContainers": false,
+        "staticLootContainers": [],
+        "masteries": false,
+        "addWeaponPreset": false,
+        "weaponPresets": [],
+        "masterySections": null
+    },
+    "66eeef8b2a166b9000000003": {
+        "itemTplToClone": "59fafd4b86f7745ca07e1232",
+        "parentId": "5795f317245977243854e041",
+        "handbookParentId": "5b5f6fa186f77409407a7eb7",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "BackgroundColor": "green",
+            "Weight": -1,
+            "Grids": [
+                {
+                    "_id": "619cd188a09b63518b0c0cdc",
+                    "_name": "main",
+                    "_parent": "66eeef8b2a166b9000000003",
+                    "_props": {
+                        "cellsH": 14,
+                        "cellsV": 14,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [],
+                                "Filter": [
+                                    "5c99f98d86f7745c314214b3",
+                                    "67449b6c89d5e1ddc603f504"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "KeyBars(Able Extented Edition)",
+                "shortName": "KB-AEE",
+                "description": ""
+            }
+        },
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [],
+        "fleaPriceRoubles": 100000,
+        "handbookPriceRoubles": 100000,
+        "addtoTraders": false,
+        "addtoBots": false,
+        "addtoStaticLootContainers": false,
+        "staticLootContainers": [],
+        "masteries": false,
+        "addWeaponPreset": false,
+        "weaponPresets": [],
+        "masterySections": null
+    },
+    "66eeef8b2a166b9000000004": {
+        "itemTplToClone": "619cbf7d23893217ec30b689",
+        "parentId": "5795f317245977243854e041",
+        "handbookParentId": "5b5f6fa186f77409407a7eb7",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "BackgroundColor": "green",
+            "Weight": -3,
+            "Grids": [
+                {
+                    "_id": "619cd188a09b63518b0c0cdc",
+                    "_name": "main",
+                    "_parent": "66eeef8b2a166b9000000004",
+                    "_props": {
+                        "cellsH": 10,
+                        "cellsV": 10,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [],
+                                "Filter": [
+                                    "544fb3f34bdc2d03748b456a",
+                                    "5448f3a64bdc2d60728b456a"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "KeyBars(Able Extented Edition)",
+                "shortName": "KB-AEE",
+                "description": ""
+            }
+        },
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [],
+        "fleaPriceRoubles": 300000,
+        "handbookPriceRoubles": 300000,
+        "addtoTraders": false,
+        "addtoBots": false,
+        "addtoStaticLootContainers": false,
+        "staticLootContainers": [],
+        "masteries": false,
+        "addWeaponPreset": false,
+        "weaponPresets": [],
+        "masterySections": null
+    }
+}
