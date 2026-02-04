@@ -1,0 +1,324 @@
+{
+    "66eeef8b2a16000002000002": {
+        "QuestName": "AbleQuestV2Pain",
+        "_id": "66eeef8b2a16000002000002",
+        "traderId": "66eeef8b2a166b0000000000",
+        "type": "Elimination",
+        "location": "any",
+        "image": "/files/quest/icon/able_lv1_mission.png",
+        "instantComplete": false,
+        "isKey": false,
+        "secretQuest": false,
+        "side": "Pmc",
+        "sideExclusive": "Pmc",
+        "description": "66eeef8b2a16000002000002 description",
+        "startedMessageText": "66eeef8b2a16000002000002 startedMessageText",
+        "successMessageText": "66eeef8b2a16000002000002 successMessageText",
+        "failMessageText": "66eeef8b2a16000002000002 failMessageText",
+        "acceptPlayerMessage": "66eeef8b2a16000002000002 acceptPlayerMessage",
+        "declinePlayerMessage": "66eeef8b2a16000002000002 declinePlayerMessage",
+        "completePlayerMessage": "66eeef8b2a16000002000002 completePlayerMessage",
+        "changeQuestMessageText": "66eeef8b2a16000002000002 changeQuestMessageText",
+        "name": "66eeef8b2a16000002000002 name",
+        "note": "66eeef8b2a16000002000002 note",
+        "restartable": false,
+        "canShowNotificationsInGame": true,
+        "conditions": {
+            "AvailableForStart": [
+                {
+                    "compareMethod": ">=",
+                    "conditionType": "Level",
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "673f0668cb0fd5b000020201",
+                    "index": 0,
+                    "parentId": "",
+                    "value": 15,
+                    "visibilityConditions": []
+                },
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "673f0668cb0fd5b000020202",
+                    "index": 0,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "66eeef8b2a16000002000001",
+                    "visibilityConditions": []
+                }
+            ],
+            "AvailableForFinish": [
+                {
+                    "completeInSeconds": 0,
+                    "conditionType": "CounterCreator",
+                    "counter": {
+                        "conditions": [
+                            {
+                                "bodyPartsWithEffects": [
+                                    {
+                                        "bodyParts": [
+                                            "Head",
+                                            "Chest",
+                                            "Stomach",
+                                            "LeftArm",
+                                            "RightArm",
+                                            "LeftLeg",
+                                            "RightLeg"
+                                        ],
+                                        "effects": [
+                                            "Pain"
+                                        ]
+                                    }
+                                ],
+                                "conditionType": "HealthEffect",
+                                "dynamicLocale": false,
+                                "energy": {
+                                    "compareMethod": ">=",
+                                    "value": 0
+                                },
+                                "hydration": {
+                                    "compareMethod": ">=",
+                                    "value": 0
+                                },
+                                "id": "673f0668cb0fd5b000020203",
+                                "time": {
+                                    "compareMethod": ">=",
+                                    "value": 0
+                                }
+                            },
+                            {
+                                "bodyPart": [],
+                                "compareMethod": ">=",
+                                "conditionType": "Kills",
+                                "daytime": {
+                                    "from": 0,
+                                    "to": 0
+                                },
+                                "distance": {
+                                    "compareMethod": ">=",
+                                    "value": 0
+                                },
+                                "dynamicLocale": false,
+                                "enemyEquipmentExclusive": [],
+                                "enemyEquipmentInclusive": [],
+                                "enemyHealthEffects": [],
+                                "id": "673f0668cb0fd5b000020204",
+                                "resetOnSessionEnd": false,
+                                "savageRole": [],
+                                "target": "Any",
+                                "value": 1,
+                                "weapon": [],
+                                "weaponCaliber": [],
+                                "weaponModsInclusive": [],
+                                "weaponModsExclusive": [],
+                                "equipmentInclusive": [],
+                                "equipmentExclusive": []
+                            }
+                        ],
+                        "id": "673f0668cb0fd5b000020205"
+                    },
+                    "doNotResetIfCounterCompleted": false,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "673f0668cb0fd5b000020206",
+                    "index": 0,
+                    "oneSessionOnly": false,
+                    "parentId": "",
+                    "type": "Elimination",
+                    "value": 7,
+                    "visibilityConditions": []
+                }
+            ],
+            "Fail": []
+        },
+        "rewards": {
+            "Fail": [],
+            "Started": [],
+            "Success": [
+                {
+                    "availableInGameEditions": [],
+                    "id": "673f0668cb0fd5b000020207",
+                    "index": 0,
+                    "target": "66eeef8b2a166b0000000000",
+                    "type": "TraderStanding",
+                    "value": "0.01",
+                    "unknown": false
+                },
+                {
+                    "availableInGameEditions": [],
+                    "id": "673f0668cb0fd5b000020208",
+                    "index": 0,
+                    "type": "Experience",
+                    "value": "2777",
+                    "unknown": false
+                }
+            ]
+        }
+    },
+    "66eeef8b2a16000002000003": {
+        "QuestName": "AbleQuestV2HandsTremor",
+        "_id": "66eeef8b2a16000002000003",
+        "traderId": "66eeef8b2a166b0000000000",
+        "type": "Elimination",
+        "location": "any",
+        "image": "/files/quest/icon/able_lv1_mission.png",
+        "instantComplete": false,
+        "isKey": false,
+        "secretQuest": false,
+        "side": "Pmc",
+        "sideExclusive": "Pmc",
+        "description": "66eeef8b2a16000002000003 description",
+        "startedMessageText": "66eeef8b2a16000002000003 startedMessageText",
+        "successMessageText": "66eeef8b2a16000002000003 successMessageText",
+        "failMessageText": "66eeef8b2a16000002000003 failMessageText",
+        "acceptPlayerMessage": "66eeef8b2a16000002000003 acceptPlayerMessage",
+        "declinePlayerMessage": "66eeef8b2a16000002000003 declinePlayerMessage",
+        "completePlayerMessage": "66eeef8b2a16000002000003 completePlayerMessage",
+        "changeQuestMessageText": "66eeef8b2a16000002000003 changeQuestMessageText",
+        "name": "66eeef8b2a16000002000003 name",
+        "note": "66eeef8b2a16000002000003 note",
+        "restartable": false,
+        "canShowNotificationsInGame": true,
+        "conditions": {
+            "AvailableForStart": [
+                {
+                    "compareMethod": ">=",
+                    "conditionType": "Level",
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "673f0668cb0fd5b000020301",
+                    "index": 0,
+                    "parentId": "",
+                    "value": 15,
+                    "visibilityConditions": []
+                },
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "673f0668cb0fd5b000020302",
+                    "index": 0,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "66eeef8b2a16000002000002",
+                    "visibilityConditions": []
+                }
+            ],
+            "AvailableForFinish": [
+                {
+                    "completeInSeconds": 0,
+                    "conditionType": "CounterCreator",
+                    "counter": {
+                        "conditions": [
+                            {
+                                "bodyPartsWithEffects": [
+                                    {
+                                        "bodyParts": [
+                                            "Head",
+                                            "Chest",
+                                            "Stomach",
+                                            "LeftArm",
+                                            "RightArm",
+                                            "LeftLeg",
+                                            "RightLeg"
+                                        ],
+                                        "effects": [
+                                            "HandsTremor"
+                                        ]
+                                    }
+                                ],
+                                "conditionType": "HealthEffect",
+                                "dynamicLocale": false,
+                                "energy": {
+                                    "compareMethod": ">=",
+                                    "value": 0
+                                },
+                                "hydration": {
+                                    "compareMethod": ">=",
+                                    "value": 0
+                                },
+                                "id": "673f0668cb0fd5b000020303",
+                                "time": {
+                                    "compareMethod": ">=",
+                                    "value": 0
+                                }
+                            },
+                            {
+                                "bodyPart": [],
+                                "compareMethod": ">=",
+                                "conditionType": "Kills",
+                                "daytime": {
+                                    "from": 0,
+                                    "to": 0
+                                },
+                                "distance": {
+                                    "compareMethod": ">=",
+                                    "value": 0
+                                },
+                                "dynamicLocale": false,
+                                "enemyEquipmentExclusive": [],
+                                "enemyEquipmentInclusive": [],
+                                "enemyHealthEffects": [],
+                                "id": "673f0668cb0fd5b000020304",
+                                "resetOnSessionEnd": false,
+                                "savageRole": [],
+                                "target": "Any",
+                                "value": 1,
+                                "weapon": [],
+                                "weaponCaliber": [],
+                                "weaponModsInclusive": [],
+                                "weaponModsExclusive": [],
+                                "equipmentInclusive": [],
+                                "equipmentExclusive": []
+                            }
+                        ],
+                        "id": "673f0668cb0fd5b000020305"
+                    },
+                    "doNotResetIfCounterCompleted": false,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "673f0668cb0fd5b000020306",
+                    "index": 0,
+                    "oneSessionOnly": false,
+                    "parentId": "",
+                    "type": "Elimination",
+                    "value": 7,
+                    "visibilityConditions": []
+                }
+            ],
+            "Fail": []
+        },
+        "rewards": {
+            "Fail": [],
+            "Started": [],
+            "Success": [
+                {
+                    "availableInGameEditions": [],
+                    "id": "673f0668cb0fd5b000010005",
+                    "index": 0,
+                    "target": "66eeef8b2a166b0000000000",
+                    "type": "TraderStanding",
+                    "value": "0.01",
+                    "unknown": false
+                },
+                {
+                    "availableInGameEditions": [],
+                    "id": "673f0668cb0fd5b000010006",
+                    "index": 0,
+                    "type": "Experience",
+                    "value": "2777",
+                    "unknown": false
+                }
+            ]
+        }
+    }
+}

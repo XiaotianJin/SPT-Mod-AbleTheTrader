@@ -1,8 +1,8 @@
 {
     "66eeef8b2a166b0000400001": {
-        "itemTplToClone": "637b6251104668754b72f8f9",
-        "parentId": "5448f3a64bdc2d60728b456a",
-        "handbookParentId": "5b47574386f77428ca22b33a",
+        "itemTplToClone": "5af0454c86f7746bf20992e8",
+        "parentId": "5448f3ac4bdc2dce718b4569",
+        "handbookParentId": "5b47574386f77428ca22b338",
         "overrideProperties": {
             "ExaminedByDefault": true,
             "BackgroundColor": "red",

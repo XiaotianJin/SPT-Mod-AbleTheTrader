@@ -28,7 +28,6 @@
     <Folder Include="db\CustomQuests\66eeef8b2a166b0000000000\Images\" />
     <Folder Include="db\CustomQuests\66eeef8b2a166b0000000000\Locales\" />
     <Folder Include="db\CustomQuests\66eeef8b2a166b0000000000\QuestAssort\" />
-    <Folder Include="db\CustomQuests\66eeef8b2a166b0000000000\Quests\" />
     <Folder Include="db\CustomQuestZones\" />
     <Folder Include="db\CustomLocales\" />
     <Folder Include="db\CustomProfiles\" />
