@@ -803,7 +803,7 @@
         },
         {
             "_id": "66eeef8b2a16600000000006",
-            "_tpl": "5c0a840b86f7742ffa4f2482",
+            "_tpl": "66eeef8b2a166b9000000006",
             "parentId": "hideout",
             "slotId": "hideout",
             "upd": {
@@ -815,7 +815,7 @@
         },
         {
             "_id": "66eeef8b2a16600000000007",
-            "_tpl": "5b6d9ce188a4501afc1b2b25",
+            "_tpl": "66eeef8b2a166b9000000005",
             "parentId": "hideout",
             "slotId": "hideout",
             "upd": {
@@ -2360,7 +2360,7 @@
                 },
                 {
                     "count": 1,
-                    "_tpl": "66eeef8b2a16600003000008"
+                    "_tpl": "66eeef8b2a166b0000300008"
                 }
             ]
         ],
@@ -2372,7 +2372,7 @@
                 },
                 {
                     "count": 1,
-                    "_tpl": "66eeef8b2a16600003000009"
+                    "_tpl": "66eeef8b2a166b0000300009"
                 }
             ]
         ],

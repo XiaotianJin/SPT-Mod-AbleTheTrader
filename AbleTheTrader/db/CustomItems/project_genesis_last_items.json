@@ -394,6 +394,7 @@
             "armorClass": "6",
             "Durability": 100,
             "MaxDurability": 100,
+            "BluntThroughput": 0.15,
             "RepairCost": 10,
             "RepairSpeed": 10,
             "armorColliders": [
@@ -474,6 +475,7 @@
             "armorClass": "12",
             "Durability": 144,
             "MaxDurability": 144,
+            "BluntThroughput": 0.05,
             "RepairCost": 10,
             "RepairSpeed": 10,
             "armorColliders": [
@@ -554,6 +556,7 @@
             "armorClass": "42",
             "Durability": 666,
             "MaxDurability": 666,
+            "BluntThroughput": 0.01,
             "RepairCost": 10,
             "RepairSpeed": 10,
             "armorColliders": [
@@ -855,8 +858,8 @@
             }
         },
         "addtoInventorySlots": [],
-        "addtoModSlots": false,
-        "modSlot": [],
+        "addtoModSlots": true,
+        "modSlot": [ "mod_foregrip" ],
         "fleaPriceRoubles": 177777,
         "handbookPriceRoubles": 177777,
         "addtoTraders": false,
@@ -900,8 +903,8 @@
             }
         },
         "addtoInventorySlots": [],
-        "addtoModSlots": false,
-        "modSlot": [],
+        "addtoModSlots": true,
+        "modSlot": [ "mod_tactical" ],
         "fleaPriceRoubles": 177777,
         "handbookPriceRoubles": 177777,
         "addtoTraders": false,

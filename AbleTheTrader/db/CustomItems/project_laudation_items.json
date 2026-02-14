@@ -555,7 +555,12 @@
                                     "66eeef8b2a166b0000100008",
                                     "66eeef8b2a166b0000100009",
                                     "66eeef8b2a166b0000200009",
-                                    "66eeef8b2a166b0000200010"
+                                    "66eeef8b2a166b0000200010",
+                                    "66eeef8b2a166b0000200011",
+                                    "66eeef8b2a166b0000300008",
+                                    "66eeef8b2a166b0000300009",
+                                    "66eeef8b2a166b0000400011",
+                                    "66eeef8b2a166b0000400012"
                                 ],
                                 "Filter": [
                                     "54009119af1c881c07000029"
@@ -606,8 +611,8 @@
                     "_name": "main",
                     "_parent": "5d235bb686f77443f4331278",
                     "_props": {
-                        "cellsH": 14,
-                        "cellsV": 14,
+                        "cellsH": 20,
+                        "cellsV": 15,
                         "filters": [
                             {
                                 "ExcludedFilter": [

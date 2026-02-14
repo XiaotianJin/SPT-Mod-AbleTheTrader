@@ -704,8 +704,8 @@
             }
         },
         "addtoInventorySlots": [],
-        "addtoModSlots": false,
-        "modSlot": [],
+        "addtoModSlots": true,
+        "modSlot": [ "mod_foregrip" ],
         "fleaPriceRoubles": 70000,
         "handbookPriceRoubles": 70000,
         "addtoTraders": false,
@@ -749,8 +749,8 @@
             }
         },
         "addtoInventorySlots": [],
-        "addtoModSlots": false,
-        "modSlot": [],
+        "addtoModSlots": true,
+        "modSlot": [ "mod_tactical" ],
         "fleaPriceRoubles": 70000,
         "handbookPriceRoubles": 70000,
         "addtoTraders": false,
